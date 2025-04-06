@@ -36,10 +36,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 <img src="https://github.com/user-attachments/assets/b316e094-837e-41b4-a7f9-f1bf8e62acab" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-![image](https://github.com/user-attachments/assets/b316e094-837e-41b4-a7f9-f1bf8e62acab)
-
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download the osTicket-Installation-Files.zip and unzip it onto your desktop. You should have seven items in your osTicket Installation Files folder. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
