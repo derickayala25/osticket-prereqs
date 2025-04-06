@@ -29,7 +29,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 5
 
 ![image](https://github.com/user-attachments/assets/b316e094-837e-41b4-a7f9-f1bf8e62acab)<br />
-Download the <a href="https://www.drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">osTicket-Installation-Files</a> and unzip it onto your desktop.
 
 <h2>Installation Steps</h2>
 
@@ -37,7 +36,7 @@ Download the <a href="https://www.drive.google.com/uc?export=download&id=1b3RBkX
 <img src="https://github.com/user-attachments/assets/aa2083e6-4311-4994-82e8-21e6e2c50236" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 
-Download the [osTicket-Installation-Files.zip](https://www.drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD){:target="_blank"} and unzip it onto your desktop.
+Download the <a href="https://www.drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">osTicket-Installation-Files</a> and unzip it onto your desktop.
 
 <br />
 
