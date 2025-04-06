@@ -38,7 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://github.com/user-attachments/assets/aa2083e6-4311-4994-82e8-21e6e2c50236" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download the - ### [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. Follow these steps: Start Menu, Control Panel, Programs, Turn Windows features on or off, check the 	“Internet Information Services” box and expand, expand “Worldwide Web Services”, 	expand “Application Development Features”, check the “CGI” box, click OK Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Download the - ### [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
@@ -46,7 +46,7 @@ Download the - ### [osTicket-Installation-Files.zip](https://drive.google.com/uc
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install / Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface). Follow these steps: Start Menu, Control Panel, Programs, Turn Windows features on or off, check the 	“Internet Information Services” box and expand, expand “Worldwide Web Services”, 	expand “Application Development Features”, check the “CGI” box, click OK. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install / Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface). Follow these steps: Start Menu, Control Panel, Programs, Turn Windows features on or off, check the 	“Internet Information Services” box and expand, expand “Worldwide Web Services”, 	expand “Application Development Features”, check the CGI (Common Gateway Interface) box, click OK. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
