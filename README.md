@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/b316e094-837e-41b4-a7f9-f1bf8e62acab)
 
-
+Download the [osTicket-Installation-Files.zip](www.google.com) and unzip it onto your desktop.
 <h2>Installation Steps</h2>
 
 <p>
