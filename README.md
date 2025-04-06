@@ -45,8 +45,8 @@ Download the [osTicket-Installation-Files.zip](https://www.google.com) and unzip
 <img src="https://github.com/user-attachments/assets/8ca00ad8-2185-4006-8140-cee0ba2f2df6" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>Install / Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface)</b>
-<br>Open a browser tab and type 127.0.0.1 in the address bar. You should get a message similar to "This site can't be reached."<br />Follow these steps: Go to Start Menu, Control Panel, Programs, Turn Windows features on or off, check the “Internet Information Services” box and expand, expand “Worldwide Web Services”, expand “Application Development Features”, check the "CGI" box, click OK.<br>Refresh the browser tab and it should open to a tab similar to the image above.<br />
+<b>Install / Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface)</b><br />
+Open a browser tab and type 127.0.0.1 in the address bar. You should get a message similar to "This site can't be reached."Follow these steps: Go to Start Menu, Control Panel, Programs, Turn Windows features on or off, check the “Internet Information Services” box and expand, expand “Worldwide Web Services”, expand “Application Development Features”, check the "CGI" box, click OK.<br>Refresh the browser tab and it should open to a tab similar to the image above.<br />
 </p>
 <br />
 
