@@ -71,6 +71,8 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 <b>Continue Setting up osTicket in the browser (click Continue) -> Name Helpdesk -> Default email (receives email from customers) -> In the Admin User section, put in your name -> The email address in this section has to be different from the “System 	Settings” section -> Choose a username and password</b></br><br/>
 <b>DO NOT CLICK ON “Install Now” YET</b></br><br/>
 <b>Install HeidiSQL -> Open Heidi SQL -> Once set up, click on “Skip” on the window that will open up -> Create a new session, root/root -> Click “New”, “User” will be “root”, “Password” will be “root” -> Connect to the session -> Click “Open” -> Create a database called “osTicket” -> Right-click on “Unnamed”, “Create new”, “Database” -> Type “osTicket”, click “OK” -> You will see the new database (osTicket) under the “Unnamed” panel, but if you click it you won't see anything inside of it</b></br><br/>
-<b></b>
+<b>Continue Setting up osTicket in the browser -> MySQL Database: osTicket -> MySQL Username: root -> MySQL Password: root -> Click “Install Now!”</b></br><br/>
+<b>Once the Congratulations message appears on the osTicket tab on the browser, right-click on the osTicket folder in HeidiSQL, select “Refresh” and you should see all the osTicket files in there. -> You can close HeidiSQL now</b></br><br/>
+<b>Clean up -> Delete: C:\inetpub\wwwroot\osTicket\setup -> Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php</b></br><br/>
 </p>
 <br />
