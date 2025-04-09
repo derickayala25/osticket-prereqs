@@ -56,7 +56,7 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 <b>Install PHP Manager for (IIS https://github.com/phpmanager/phpmanager/releases -> PHPManagerForIIS_x64.msi)</b><br/><br/>
 <b>Install the Rewrite Module (https://www.iis.net/downloads/microsoft/url-rewrite -> English: x86 installer / x64 installer)</b><br/><br/>
 <b>Create a folder on the C drive called “PHP” -> Click on "File Explorer" or type File Explorer in the Search bar -> Click on the "This PC" icon -> Double-click the Windows (C:) drive icon -> Right-click inside the window and select New, Folder -> Name the folder PHP -> leave the window open</b><br/><br/>
-<b>Double-click on the “php-8.4.5-nts-Win32-vs17-x86” folder, select all the files and copy, open the PHP folder on the C drive and paste the contents of the “php-8.4.5-nts-Win32-vs17-x86” folder</b></br><br/>
+<b>Double-click on the “php-8.4.5-nts-Win32-vs17-x86” zipped folder, select all the files and copy, open the PHP folder on the C drive and paste the contents of the “php-8.4.5-nts-Win32-vs17-x86” folder</b></br><br/>
 <b>Install VC_redist.x86.exe</b></br><br/>
 <b>Install MySQL 9.2.0 (mysql-9.2.0-winx64.msi). Select “Typical” on the “Choose SetupType” section -> click on the “Launch MySQL Instance Configuration Wizard” box BEFORE clicking “Finish” -> Standard Configuration -> In the “Please set the security options" choose a username and password</b></br><br/>
 <b>Open IIS as an Admin (Type “iis” in the Start Menu and select “Run as administrator”)</b></br><br/>
