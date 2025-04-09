@@ -69,5 +69,8 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 <b>Using this path, C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php, rename ost-sampleconfig.php to ost-config.php</b></br><br/>
 <b>Assign Permissions to ost-config.php -> Right-click on “ost-config.php” -> Properties -> Security -> Advanced -> Disable inheritance -> Remove All -> Click “Add” -> “Select a principal” -> type “Everyone” -> click “Check Names” -> click “OK” -> check the “Full control” box -> click “OK”. In the “Advanced Security Settings for ost-config.php” window, were it says “Name” it should say C:\inetpub\wwwroot\osTicket\include\ost-config.php. Click “Apply” and “OK”. On the “ost-config.php Properties” window, click “OK”</b></br><br/>
 <b>Continue Setting up osTicket in the browser (click Continue) -> Name Helpdesk -> Default email (receives email from customers) -> In the Admin User section, put in your name -> The email address in this section has to be different from the “System 	Settings” section -> Choose a username and password</b></br><br/>
+<b>DO NOT CLICK ON “Install Now” YET</b></br><br/>
+<b>Install HeidiSQL -> Open Heidi SQL -> Once set up, click on “Skip” on the window that will open up -> Create a new session, root/root -> Click “New”, “User” will be “root”, “Password” will be “root” -> Connect to the session -> Click “Open” -> Create a database called “osTicket” -> Right-click on “Unnamed”, “Create new”, “Database” -> Type “osTicket”, click “OK” -> You will see the new database (osTicket) under the “Unnamed” panel, but if you click it you won't see anything inside of it</b></br><br/>
+<b></b>
 </p>
 <br />
