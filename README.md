@@ -53,7 +53,7 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>Install PHP Manager for (IIS https://github.com/phpmanager/phpmanager/releases -> PHPManagerForIIS_x64.msi)</b><br />
+<b>Install PHP Manager for (IIS https://github.com/phpmanager/phpmanager/releases -> PHPManagerForIIS_x64.msi)</b><br/><br/>
 <b>Install the Rewrite Module (https://www.iis.net/downloads/microsoft/url-rewrite -> English: x86 installer / x64 installer)</b><br />
 <b>Create a folder on the C drive called “PHP”</b><br/>
 <b>Double-click on the “php-8.4.5-nts-Win32-vs17-x86” folder, select all the files and copy, open the PHP folder on the C drive and paste the contents of the “php-8.4.5-nts-Win32-vs17-x86” folder</b></br>
