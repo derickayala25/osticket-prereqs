@@ -62,5 +62,9 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 <b>Open IIS as an Admin (Type “iis” in the Start Menu and select “Run as administrator”)</b></br>
 <b>Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe) -> Double-click on the “PHP Manager” icon inside the “Internet Information Services (IIS) Manager” window -> Click on the “Register new PHP version” link -> A window will open. Click on the three dots (...) -> Navigate to the PHP folder (C drive, PHP) -> Double-click the “php-cgi” file and click OK</b></br>
 <b>Reload IIS (Open IIS, Stop and Start the server) -> In the “Internet Information Services (IIS) Manager” window, click on the 	“osTicket-vm...” name on the left side under “Connections” and you'll see a right side panel open that says “Manage Server” -> There you will have the option to “Restart”, “Start” or “Stop” the server -> You can also right-click on the “osTicket-vm...” name and start or stop there.</b>.</br>
+<b>Unzip “osTicket-v1.18.2.zip” and copy the “upload” folder into “c:\inetpub\wwwroot” -> Within “c:\inetpub\wwwroot”, rename “upload” to “osTicket”</b></br>
+<b>Reload IIS (Open IIS, Stop and Start the server) -> Make sure you open IIS as Administrator</b></br>
+<b>In the “Internet Information Services (IIS) Manager” window, click on the drop-down arrow by the “osTicket-vm...” name. -> Expand the “Sites” folder -> Expand “Default Web Site” -> Click ONCE on “osTicket” -> On the right-side panel, click “Browse *:80 (http)”. It should open a new tab loading the osTicket site (http://localhost/osTicket/setup/)</b></br>
+<b>Note that some extensions are not enabled. Go back to IIS -> sites -> Default -> osTicket -> Double-click PHP Manager -> Click “Enable or disable an extension” -> Enable php_imap.dll -> Enable php_intl.dll -> Enable php_opcache.dll -> Refresh the osTicket site in your browser, observe the changes</b></br>
 </p>
 <br />
