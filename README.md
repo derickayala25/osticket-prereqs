@@ -66,6 +66,6 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 <b>Reload IIS (Open IIS, Stop and Start the server) -> Make sure you open IIS as Administrator</b></br>
 <b>In the “Internet Information Services (IIS) Manager” window, click on the drop-down arrow by the “osTicket-vm...” name. -> Expand the “Sites” folder -> Expand “Default Web Site” -> Click ONCE on “osTicket” -> On the right-side panel, click “Browse *:80 (http)”. It should open a new tab loading the osTicket site (http://localhost/osTicket/setup/)</b></br>
 <b>Note that some extensions are not enabled. Go back to IIS -> sites -> Default -> osTicket -> Double-click PHP Manager -> Click “Enable or disable an extension” -> Enable php_imap.dll -> Enable php_intl.dll -> Enable php_opcache.dll -> Refresh the osTicket site in your browser, observe the changes</b></br>
-<b>Using this path, C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php, rename ost-config.php from ost-sampleconfig.php to ost-config.php</b></br>
+<b>Using this path, C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php, rename ost-sampleconfig.php to ost-config.php</b></br>
 </p>
 <br />
