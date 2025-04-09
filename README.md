@@ -58,9 +58,9 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 <b>Create a folder on the C drive called “PHP”</b><br/>
 <b>Double-click on the “php-8.4.5-nts-Win32-vs17-x86” folder, select all the files and copy, open the PHP folder on the C drive and paste the contents of the “php-8.4.5-nts-Win32-vs17-x86” folder</b></br>
 <b>Install VC_redist.x86.exe</b></br>
-<b>Install MySQL 9.2.0 (mysql-9.2.0-winx64.msi). Select “Typical” on the “Choose SetupType” section -> click on the “Launch MySQL Instance Configuration Wizard” box BEFORE clicking “Finish” -> Standard Configuration -> In the “Please set the security options" choose a username and password</b>
-In the “Please set the security options.” section use the following username and password:
-Username: root
-Password: rootOpen a browser tab and type 127.0.0.1 in the address bar. You should get a message similar to "This site can't be reached."<br />Follow these steps: Go to Start Menu, Control Panel, Programs, Turn Windows features on or off, check the “Internet Information Services” box and expand, expand “Worldwide Web Services”, expand “Application Development Features”, check the "CGI" box, click OK.<br />Refresh the browser tab and it should open to a tab similar to the image above.
+<b>Install MySQL 9.2.0 (mysql-9.2.0-winx64.msi). Select “Typical” on the “Choose SetupType” section -> click on the “Launch MySQL Instance Configuration Wizard” box BEFORE clicking “Finish” -> Standard Configuration -> In the “Please set the security options" choose a username and password</b></br>
+<b>Open IIS as an Admin (Type “iis” in the Start Menu and select “Run as administrator”)</b></br>
+<b>Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe) -> Double-click on the “PHP Manager” icon inside the “Internet Information Services (IIS) Manager” window -> Click on the “Register new PHP version” link -> A window will open. Click on the three dots (...) -> Navigate to the PHP folder (C drive, PHP) -> Double-click the “php-cgi” file and click OK</b></br>
+pen a browser tab and type 127.0.0.1 in the address bar. You should get a message similar to "This site can't be reached."<br />Follow these steps: Go to Start Menu, Control Panel, Programs, Turn Windows features on or off, check the “Internet Information Services” box and expand, expand “Worldwide Web Services”, expand “Application Development Features”, check the "CGI" box, click OK.<br />Refresh the browser tab and it should open to a tab similar to the image above.
 </p>
 <br />
