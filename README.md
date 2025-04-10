@@ -22,11 +22,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- osTicket Installation Files
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- osTicket Core, v1.18.2
+- HeidiSQL_12.10.0.7000_Setup
+- mysql-9.2.0-winx64
+- php-8.3.20-nts-Win32-vs16-x64
+- PHPManagerForIIS_x64.msi
+- rewrite_amd64_en-US
+- vc_redist.x64
+- VisualStudioSetup (2022 Community)
 
 ![image](https://github.com/user-attachments/assets/b316e094-837e-41b4-a7f9-f1bf8e62acab)<br />
 
