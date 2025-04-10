@@ -63,6 +63,8 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 
 <b>Install VC_redist.x86.exe (or VC_redist.x64.exe)</b></br><br/>
 
+<b>Install VisualStudioSetup -> In the Workloads section select Data storage and processing ->
+
 <b>Install MySQL 9.2.0 (mysql-9.2.0-winx64.msi). Select “Typical” on the “Choose SetupType” section -> click on the “Launch MySQL Instance Configuration Wizard” box BEFORE clicking “Finish” -> Standard Configuration -> In the “Please set the security options" choose a username and password</b></br><br/>
 
 <b>Open IIS as an Admin (Type “iis” in the Start Menu and select “Run as administrator”)</b></br><br/>
