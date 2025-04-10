@@ -55,7 +55,7 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 <p>
 <b>Install PHP Manager for (IIS https://github.com/phpmanager/phpmanager/releases -> PHPManagerForIIS_x64.msi)</b><br/><br/>
   
-<b>Install the Rewrite Module (https://www.iis.net/downloads/microsoft/url-rewrite -> English: x86 installer / x64 installer)</b><br/><br/>
+<b>Install the Rewrite Module (https://www.iis.net/downloads/microsoft/url-rewrite -> English: x64 installer)</b><br/><br/>
 
 <b>Create a folder on the C drive called “PHP” -> Click on "File Explorer" or type File Explorer in the Search bar -> Click on the "This PC" icon -> Double-click the Windows (C:) drive icon -> Right-click inside the window and select New, Folder -> Name the folder PHP -> leave the window open</b><br/><br/>
   
