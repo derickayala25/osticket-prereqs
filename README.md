@@ -50,6 +50,12 @@ Download the <a href="https://www.drive.google.com/uc?export=download&id=1b3RBkX
 <b>Install / Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface)</b><br />
 Open a browser tab and type 127.0.0.1 in the address bar. You should get a message similar to "This site can't be reached."<br />Follow these steps: Go to Start Menu, Control Panel, Programs, Turn Windows features on or off, check the “Internet Information Services” box and expand, expand “Worldwide Web Services”, expand “Application Development Features”, check the "CGI" box, click OK. Once the operation is done, click Close and close the Programs window.<br/>Refresh the browser tab and it should open to a tab similar to the image above.
 </p>
+### 🌐 Enable Internet Information Services (IIS)
+
+1. Navigate to **Control Panel** > `Uninstall a program` > `Turn Windows features on or off`
+2. Tick &#9989;`Internet Information Services`
+3. Expand **Internet Information Services** > **World Wide Web Services** > **Application Development Features**
+4. Tick &#9989;`CGI` > `OK` > After it finishes, click `Close`
 <br/>
 
 <p>
