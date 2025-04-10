@@ -22,14 +22,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- osTicket Core, v1.18.2   osTicket v1.15.8
-- HeidiSQL_12.10.0.7000_Setup   HeidiSQL 12.10.0.7000 64bit build   Heidi SQL build 12.3.0.6589
-- mysql-9.2.0-winx64   MySQL v9.2.0 (win64)  (MySQL v5.5.62 (win32))
-- php-8.3.20-nts-Win32-vs16-x64   php-7.3.8-nts-Win32-VC15-x86
-- PHPManagerForIIS_x64.msi   PHP Manager for IIS v1.5.0   PHP Manager for IIS v1.5.0
-- rewrite_amd64_en-US   IIS URL Rewrite Module 2.1   IIS URL Rewrite Module 2   
-- vc_redist.x64  Microsoft Visual C++ Redistributable for Visual Studio 2015   Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.34.31931
-- VisualStudioSetup (2022 Community) Visual Studio 2022 v17.13 (Community)
+- <b>osTicket Core, v1.18.2</b>   osTicket v1.15.8
+- HeidiSQL_12.10.0.7000_Setup   <b>HeidiSQL 12.10.0.7000 64bit build</b>   Heidi SQL build 12.3.0.6589
+- mysql-9.2.0-winx64   <b>MySQL v9.2.0 (win64)</b>  (MySQL v5.5.62 (win32))
+- <b>php-8.3.20-nts-Win32-vs16-x64</b>   php-7.3.8-nts-Win32-VC15-x86
+- PHPManagerForIIS_x64.msi   <b>PHP Manager for IIS v1.5.0</b>   PHP Manager for IIS v1.5.0
+- rewrite_amd64_en-US   <b>IIS URL Rewrite Module 2.1</b>   IIS URL Rewrite Module 2   
+- vc_redist.x64  <b>Microsoft Visual C++ Redistributable for Visual Studio 2015</b>   Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.34.31931
+- VisualStudioSetup (2022 Community) <b>Visual Studio 2022 v17.13 (Community)</b>
 
 ![image](https://github.com/user-attachments/assets/b316e094-837e-41b4-a7f9-f1bf8e62acab)<br />
 
