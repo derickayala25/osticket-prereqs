@@ -58,10 +58,12 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 <b>Install the Rewrite Module (https://www.iis.net/downloads/microsoft/url-rewrite -> English: x64 installer)</b><br/><br/>
 
 <b>Create a folder on the C drive called “PHP” -> Click on "File Explorer" or type File Explorer in the Search bar -> Click on the "This PC" icon -> Double-click the Windows (C:) drive icon -> Right-click inside the window and select New, Folder -> Name the folder PHP -> leave the window open</b><br/><br/>
-  
-<b>Double-click on the “php-8.4.5-nts-Win32-vs17-x86” zipped folder, select all the files and copy them (by right-clicking inside the window, and clicking OK on the Windows Security window pop-up and clicking on Copy), open the PHP folder on the C drive and paste the contents of the “php-8.4.5-nts-Win32-vs17-x86” folder inside it</b></br><br/>
 
-<b>Install VC_redist.x86.exe (or VC_redist.x64.exe)</b></br><br/>
+<b>Download the PHP files by going to https://windows.php.net/download#php-8.4 and selecting the VS16 x64 Non Thread Safe (2025-Apr-08 22:21:54) Zip [30.7MB] file.</b></br><br/>
+  
+<b>Double-click on the “php-8.3.20-nts-Win32-vs16-x64” zipped folder, select all the files and copy them (by right-clicking inside the window, clicking OK on the Windows Security window pop-up, and clicking on Copy), open the PHP folder on the C drive and paste the contents of the “php-8.3.20-nts-Win32-vs16-x64” folder inside it. You can close the “php-8.3.20-nts-Win32-vs16-x64” folder.</b></br><br/>
+
+<b>Install Visual C++ Redistributable by going to https://www.microsoft.com/en-us/download/details.aspx?id=48145, clicking on Download and selecting vc_redist.x64.exe.</b></br><br/>
 
 <b>Install VisualStudioSetup -> In the Workloads section select Data storage and processing ->
 
