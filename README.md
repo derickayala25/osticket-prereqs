@@ -54,7 +54,7 @@ Open a browser tab and type 127.0.0.1 in the address bar.  You should get [x]   
 1. Type `Control Panel` in the search bar and open it. Select `Programs` > `Turn Windows features on or off`
 2. Check :white_square_button: the <b>Internet Information Services</b> box and expand
 3. Expand <b>Worldwide Web Services</b> and then <b>Application Development Features</b>
-4. Check &#x1F5F9; the "CGI" box and click `OK`. Once the operation is done, click `Close` and close the <b>Programs</b> window.<br/>
+4. Check &#x1F5F9; the `CGI` box and click `OK`. Once the operation is done, click `Close` and close the <b>Programs</b> window.<br/>
 5. Refresh the browser tab and it should open to a tab similar to the image above.
 </p>
 ### 🌐 Enable Internet Information Services (IIS)
