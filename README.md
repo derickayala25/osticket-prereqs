@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - <b>Microsoft Visual C++ Redistributable for Visual Studio 2015</b>   vc_redist.x64   Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.34.31931
 - <b>Visual Studio 2022 v17.13 (Community)</b>   VisualStudioSetup (2022 Community)
 
-![image](https://github.com/user-attachments/assets/b316e094-837e-41b4-a7f9-f1bf8e62acab)<br />
+![image](https://github.com/user-attachments/assets/b316e094-837e-41b4-a7f9-f1bf8e62acab)<br/>
 
 <h2>Installation Steps</h2>
 
@@ -65,9 +65,8 @@ Open a browser tab and type 127.0.0.1 in the address bar.  You should get a mess
 4. Tick &#9989;`CGI` > `OK` > After it finishes, click `Close`
 <br/>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![1](https://github.com/user-attachments/assets/f2d1695b-ef7b-426f-9957-16d5a7fa52fc)
+
 
 <b>Install PHP Manager for IIS</b></br>
 Navigate to https://github.com/phpmanager/phpmanager/releases on your browser. Click on the file named <b>PHPManagerForIIS_x64.msi</b>. The file will be downloaded automatically.
