@@ -65,13 +65,19 @@ Open a browser tab and type 127.0.0.1 in the address bar.  You should get a mess
 4. Tick &#9989;`CGI` > `OK` > After it finishes, click `Close`
 <br/>
 
-![1](https://github.com/user-attachments/assets/f2d1695b-ef7b-426f-9957-16d5a7fa52fc)
 
+<p>
+<img src="https://github.com/user-attachments/assets/f2d1695b-ef7b-426f-9957-16d5a7fa52fc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <b>Install PHP Manager for IIS</b></br>
 Navigate to https://github.com/phpmanager/phpmanager/releases on your browser. Click on the file named <b>PHPManagerForIIS_x64.msi</b>. The file will be downloaded automatically.
 Double-click the file, click `Next` > accept the terms > `Next` > `Next` > `Install` > `Finish`.<br/><br/>
-  
+
+<p>
+<img src="https://github.com/user-attachments/assets/56b5e9aa-532b-4f0e-92f5-a759bb9622ad" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <b>Install the IIS URL Rewrite Module</b></br>
 Navigate to https://www.iis.net/downloads/microsoft/url-rewrite. Click on the <b>English: x64 installer</b> file. The file will be downloaded automatically. Double-click the file
 and accept the terms. Click `Install` and then `Finish`.<br/><br/>
