@@ -103,7 +103,7 @@ Type <b>File Explorer</b> in the Search bar. Click on the `This PC` icon > Doubl
 Once downloaded, double-click on the `php-8.3.20-nts-Win32-vs16-x64` zipped folder, select all the files and copy them (by right-clicking inside the window, clicking `OK` on the <b>Windows Security</b> window pop-up, and clicking on <b>Copy</b>). Open the <b>PHP</b> folder on the `(C:)` drive and paste the contents of the `php-8.3.20-nts-Win32-vs16-x64` folder inside it. You can close the `php-8.3.20-nts-Win32-vs16-x64` folder.</b></br><br/>
 
 <b>Install Visual C++ Redistributable</b></br>
-Go to https://www.microsoft.com/en-us/download/details.aspx?id=48145, click on <b>Download</b>, select `vc_redist.x64.exe`, and click on <b>Download.</b></br><br/>
+Go to https://www.microsoft.com/en-us/download/details.aspx?id=48145, click on <b>Download</b>, select `vc_redist.x64.exe`, and click on <b>Download.</b> Double-click the file, accept the terms and click `Install`. Click `Close`.</br><br/>
 
 <b>Install VisualStudioSetup by going to https://visualstudio.microsoft.com/ and clicking on Download Visual Studio. Double-click the VisualStudioSetup file. In the Workloads section, under Other toolsets, select Data storage and processing. Click Install. Once it finishes installing, close the Visual Studio 2022 windows.</b></br><br/>
 
