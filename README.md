@@ -95,7 +95,7 @@ Type <b>File Explorer</b> in the Search bar. Click on the `This PC` icon > Doubl
 
 <b>Download the PHP files by going to https://windows.php.net/download#php-8.4 and selecting the VS16 x64 Non Thread Safe (2025-Apr-08 22:21:54) Zip [30.7MB] file.</b></br><br/>
   
-<b>Once downloaded, double-click on the `php-8.3.20-nts-Win32-vs16-x64` zipped folder, select all the files and copy them (by right-clicking inside the window, clicking OK on the Windows Security window pop-up, and clicking on Copy), open the PHP folder on the C drive and paste the contents of the “php-8.3.20-nts-Win32-vs16-x64” folder inside it. You can close the “php-8.3.20-nts-Win32-vs16-x64” folder.</b></br><br/>
+<b>Once downloaded, double-click on the `php-8.3.20-nts-Win32-vs16-x64` zipped folder, select all the files and copy them (by right-clicking inside the window, clicking `OK` on the <b>Windows Security</b> window pop-up, and clicking on <b>Copy</b>). Open the <b>PHP</b> folder on the `(C:)` drive and paste the contents of the `php-8.3.20-nts-Win32-vs16-x64` folder inside it. You can close the `php-8.3.20-nts-Win32-vs16-x64` folder.</b></br><br/>
 
 <b>Install Visual C++ Redistributable by going to https://www.microsoft.com/en-us/download/details.aspx?id=48145, clicking on Download, selecting vc_redist.x64.exe, and clicking on Download.</b></br><br/>
 
