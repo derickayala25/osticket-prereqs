@@ -69,14 +69,15 @@ Open a browser tab and type 127.0.0.1 in the address bar.  You should get a mess
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<b>Install PHP Manager for IIS</b>br>
+<b>Install PHP Manager for IIS</b></br>
 Navigate to https://github.com/phpmanager/phpmanager/releases on your browser. Click on the file named <b>PHPManagerForIIS_x64.msi</b>. The file will be downloaded automatically.
 Double-click the file, click `Next` > accept the terms > `Next` > `Next` > `Install` > `Finish`.<br/><br/>
   
 <b>Install the IIS URL Rewrite Module</b></br>
-Navigate to https://www.iis.net/downloads/microsoft/url-rewrite. Click on the <b>English: x64 installer</b> file. The file will be downloaded automatically.<br/><br/>
+Navigate to https://www.iis.net/downloads/microsoft/url-rewrite. Click on the <b>English: x64 installer</b> file. The file will be downloaded automatically. Double-click the file
+and accept the terms. Click `Install` and then `Finish`.<br/><br/>
 
-<b>Create a folder on the C drive called PHP</b>
+<b>Create a folder on the C drive called PHP</b></br>
 Type <b>File Explorer</b> in the Search bar. Click on the `This PC` icon > Double-click the `Windows (C:)` drive icon > Right-click inside the window and select `New` > `Folder`. Name the folder <b>PHP</b> and leave the window open.<br/><br/>
 
 <b>Download the PHP files by going to https://windows.php.net/download#php-8.4 and selecting the VS16 x64 Non Thread Safe (2025-Apr-08 22:21:54) Zip [30.7MB] file.</b></br><br/>
