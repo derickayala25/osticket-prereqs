@@ -82,8 +82,12 @@ Double-click the file, click `Next` > accept the terms > `Next` > `Next` > `Inst
 Navigate to https://www.iis.net/downloads/microsoft/url-rewrite. Click on the <b>English: x64 installer</b> file. The file will be downloaded automatically. Double-click the file
 and accept the terms. Click `Install` and then `Finish`.<br/><br/>
 
-<b>Create a folder on the C drive called PHP</b></br>
-Type <b>File Explorer</b> in the Search bar. Click on the `This PC` icon > Double-click the `Windows (C:)` drive icon > Right-click inside the window and select `New` > `Folder`. Name the folder <b>PHP</b> and leave the window open.<br/><br/>
+<p>
+<img src="https://github.com/user-attachments/assets/7d5ace4d-bb33-4014-bc6f-7c5bb2687cf4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<b>Create a folder on the `(C:)` drive called PHP</b></br>
+Type <b>File Explorer</b> in the Search bar. Click on the `This PC` icon > Double-click the Windows `(C:)` drive icon > Right-click inside the window and select `New` > `Folder`. Name the folder <b>PHP</b> and leave the window open.<br/><br/>
 
 <b>Download the PHP files by going to https://windows.php.net/download#php-8.4 and selecting the VS16 x64 Non Thread Safe (2025-Apr-08 22:21:54) Zip [30.7MB] file.</b></br><br/>
   
