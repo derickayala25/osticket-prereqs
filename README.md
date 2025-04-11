@@ -70,11 +70,13 @@ Open a browser tab and type 127.0.0.1 in the address bar.  You should get a mess
 </p>
 <p>
 <b>Install PHP Manager for IIS</b></br>
-Navigate to https://github.com/phpmanager/phpmanager/releases on our browswer. Click on the file named PHPManagerForIIS_x64.msi. The file will be downloaded automatically.</b><br/><br/>
+Navigate to https://github.com/phpmanager/phpmanager/releases on your browser. Click on the file named <b>PHPManagerForIIS_x64.msi</b>. The file will be downloaded automatically.</b><br/><br/>
   
-<b>Install the Rewrite Module (https://www.iis.net/downloads/microsoft/url-rewrite -> English: x64 installer)</b><br/><br/>
+<b>Install the IIS URL Rewrite Module</b>
+Navigate to https://www.iis.net/downloads/microsoft/url-rewrite. Click on the <b>English: x64 installer</b> file. The file will be downloaded automatically.<br/><br/>
 
-<b>Create a folder on the C drive called “PHP” -> Click on "File Explorer" or type File Explorer in the Search bar -> Click on the "This PC" icon -> Double-click the Windows (C:) drive icon -> Right-click inside the window and select New, Folder -> Name the folder PHP -> leave the window open</b><br/><br/>
+<b>Create a folder on the C drive called PHP</b>
+Type <b>File Explorer</b> in the Search bar. Click on the `This PC` icon > Double-click the `Windows (C:)` drive icon > Right-click inside the window and select `New` > `Folder`. Name the folder <b>PHP</b> and leave the window open.<br/><br/>
 
 <b>Download the PHP files by going to https://windows.php.net/download#php-8.4 and selecting the VS16 x64 Non Thread Safe (2025-Apr-08 22:21:54) Zip [30.7MB] file.</b></br><br/>
   
