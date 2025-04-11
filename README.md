@@ -69,7 +69,8 @@ Open a browser tab and type 127.0.0.1 in the address bar.  You should get a mess
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<b>Install PHP Manager for IIS (https://github.com/phpmanager/phpmanager/releases -> PHPManagerForIIS_x64.msi)</b><br/><br/>
+<b>Install PHP Manager for IIS</b></br>
+Navigate to https://github.com/phpmanager/phpmanager/releases on our browswer. Click on the file named PHPManagerForIIS_x64.msi. The file will be downloaded automatically.</b><br/><br/>
   
 <b>Install the Rewrite Module (https://www.iis.net/downloads/microsoft/url-rewrite -> English: x64 installer)</b><br/><br/>
 
