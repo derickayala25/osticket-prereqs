@@ -89,6 +89,10 @@ and accept the terms. Click `Install` and then `Finish`.<br/><br/>
 <b>Create a folder on the `(C:)` drive called PHP</b></br>
 Type <b>File Explorer</b> in the Search bar. Click on the `This PC` icon > Double-click the Windows `(C:)` drive icon > Right-click inside the window and select `New` > `Folder`. Name the folder <b>PHP</b> and leave the window open.<br/><br/>
 
+<p>
+<img src="https://github.com/user-attachments/assets/873bdcb8-9c1e-4321-b785-954b1741076e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <b>Download the PHP files by going to https://windows.php.net/download#php-8.4 and selecting the VS16 x64 Non Thread Safe (2025-Apr-08 22:21:54) Zip [30.7MB] file.</b></br><br/>
   
 <b>Double-click on the “php-8.3.20-nts-Win32-vs16-x64” zipped folder, select all the files and copy them (by right-clicking inside the window, clicking OK on the Windows Security window pop-up, and clicking on Copy), open the PHP folder on the C drive and paste the contents of the “php-8.3.20-nts-Win32-vs16-x64” folder inside it. You can close the “php-8.3.20-nts-Win32-vs16-x64” folder.</b></br><br/>
