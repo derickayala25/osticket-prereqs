@@ -70,7 +70,7 @@ Open a browser tab and type 127.0.0.1 in the address bar.  You should get a mess
 </p>
 <p>
 <b>Install PHP Manager for IIS</b></br>
-Navigate to https://github.com/phpmanager/phpmanager/releases on your browser. Click on the file named <b>PHPManagerForIIS_x64.msi</b>. The file will be downloaded automatically.</b><br/><br/>
+Navigate to https://github.com/phpmanager/phpmanager/releases on your browser. Click on the file named <b>PHPManagerForIIS_x64.msi</b>. The file will be downloaded automatically. Double-click the file, click Next > accept the terms > `Next` > `Next` > `Install` > `Finish`.</b><br/><br/>
   
 <b>Install the IIS URL Rewrite Module</b></br>
 Navigate to https://www.iis.net/downloads/microsoft/url-rewrite. Click on the <b>English: x64 installer</b> file. The file will be downloaded automatically.<br/><br/>
