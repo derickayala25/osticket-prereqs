@@ -81,7 +81,8 @@ Type <b>File Explorer</b> in the Search bar. Click on the `This PC` icon > Doubl
 <img src="https://github.com/user-attachments/assets/873bdcb8-9c1e-4321-b785-954b1741076e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<b>Download the PHP files by going to https://windows.php.net/download#php-8.4 and selecting the VS16 x64 Non Thread Safe (2025-Apr-08 22:21:54) Zip [30.7MB] file.</b></br><br/>
+<b>Download the PHP files</b></br
+Go to https://windows.php.net/download#php-8.4 and select the <b>VS16 x64 Non Thread Safe (2025-Apr-08 22:21:54) Zip [30.7MB]</b> file.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/559b0df8-a4b6-460a-85a2-71a76e14beb1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
