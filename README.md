@@ -206,7 +206,8 @@ Go to https://www.heidisql.com/. Click on the <b>Downloads</b> tab. Close out an
 
 
 
-<b>Continue Setting up osTicket in the browser -> MySQL Database: osTicket -> MySQL Username: root -> MySQL Password: root -> Click “Install Now!”</b></br><br/>
+<b>Continue Setting up osTicket in the browser</b></br>
+Go back to the osTicket browser tab. Under the <b>Database Settings</b> section, under <MySQL Database:</b>, type the word <b>osTicket</b>. For <b>MySQL Username:</b> type the word <b>root</b> and for <b>MySQL Password:</b> also type <b>root</b>. Click `Install Now!`</br><br/>
 
 <b>Once the Congratulations message appears on the osTicket tab on the browser, right-click on the osTicket folder in the HeidiSQL window, select “Refresh” and you should see all the osTicket files in there. -> You can close the HeidiSQL window now</b></br><br/>
 
