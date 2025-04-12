@@ -131,8 +131,12 @@ In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Ac
 <b>Open IIS as an Administrator</b></br>
 Type <b>IIS</b> in the search bar and select `Run as administrator`.</b></br><br/>
 
+<p>
+<img src="https://github.com/user-attachments/assets/018b3d25-1a4c-4628-87d4-6d139a44f321" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <b>Register PHP from within IIS</b></br>
-Double-click on the <b>PHP Manager</b> icon inside the <b>Internet Information Services (IIS) Manager</b> window. Click on the <b>Register new PHP version</b> link. A window will open. Click on the three dots (...) -> Double-click on the PHP folder (C drive, PHP) -> Double-click the “php-cgi” file and click OK</b></br><br/>
+Double-click on the <b>PHP Manager</b> icon inside the <b>Internet Information Services (IIS) Manager</b> window. Click on the <b>Register new PHP version</b> link. A window will open. Click on the ellipsis `...`. Double-click on the <b>PHP</b> folder. Double-click the `php-cgi` file and click `OK`.</br><br/>
 
 <b>Reload IIS (Open IIS, Stop and Start the server) -> In the “Internet Information Services (IIS) Manager” window, click on the 	“osTicket-vm...” name on the left side under “Connections” and you'll see a right side panel open that says “Manage Server” -> There you will have the option to “Restart”, “Start” or “Stop” the server -> You can also right-click on the “osTicket-vm...” name and start or stop there.</b>.</br><br/>
 
