@@ -116,9 +116,9 @@ Go to https://www.microsoft.com/en-us/download/details.aspx?id=48145, click on <
 <b>Install Visual Studio</b></br>
 Go to https://visualstudio.microsoft.com/ and click on <b>Download Visual Studio</b>. Once downloaded, double-click the `VisualStudioSetup` file and click `Continue`. In the `Workloads` section, under `Other toolsets`, select <b>Data storage and processing</b>. Click `Install`. Once it finishes installing, close the <b>Visual Studio 2022</b> windows.</b></br><br/>
 
-
-
-
+<p>
+<img src="https://github.com/user-attachments/assets/68064547-7419-4d8a-9f9b-f50702062368" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <b>Install MySQL 9.2.0</b></br>
 Go to https://dev.mysql.com/downloads/mysql/. `Download` the <b>Windows (x86, 64-bit), MSI Installer</b> file. Click on <b>No thanks, just start my download.</b> Double-click the `mysql-9.2.0-winx64` file in your `Downloads` folder. Click `Next`, accept the terms and click `Next`. Select `Typical` on the <b>Choose Setup Type</b> section and click `Install`. Click `Finish`.</br>
