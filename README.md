@@ -179,7 +179,7 @@ Note that some extensions are not enabled. Go back to `IIS` > `Sites` > `Default
 </p>
 
 <b>Rename ost-sampleconfig.php</b>
-Open <b>File Explorer</>. Copy and paste this path onto the window's address bar <b>C:\inetpub\wwwroot\osTicket\include</b>. Rename `ost-sampleconfig.php` to `ost-config.php`.</br><br/>
+Open <b>File Explorer</b>. Copy and paste this path onto the window's address bar <b>C:\inetpub\wwwroot\osTicket\include</b>. Rename `ost-sampleconfig.php` to `ost-config.php`.</br><br/>
 
 
 
