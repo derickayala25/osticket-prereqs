@@ -145,7 +145,12 @@ Double-click on the <b>PHP Manager</b> icon inside the <b>Internet Information S
 <b>Reload IIS (Open IIS, Stop and Start the server)</b></br>
 In the <b>Internet Information Services (IIS) Manager</b> window, click on the <b>osTicket-vm...</b> name on the left side under <b>Connections</b>. You'll see a right side panel open that says <b>Manage Server</b>. There you will have the option to `Restart`, `Start` or `Stop` the server. You can also right-click on the <b>osTicket-vm...</b> name and start or stop there. Stop and start the server once.</br><br/>
 
-<b>Download osTicket by going to https://osticket.com/ -> Get Started -> Download the Open Source file -> select an osTicket Core version, click Next Step -> select your desired language, click Next Step -> you can skip the plug ins -> No Thanks. -> Unzip “osTicket-v1.18.2.zip” and copy the “upload” folder into “c:\inetpub\wwwroot” -> Within “c:\inetpub\wwwroot”, rename “upload” to “osTicket”</b></br><br/>
+
+
+
+
+<b>Download osTicket</b></br>
+Go to https://osticket.com/. Click on <b>Get Started</b>. Download the Open Source file -> select an osTicket Core version, click Next Step -> select your desired language, click Next Step -> you can skip the plug ins -> No Thanks. -> Unzip “osTicket-v1.18.2.zip” and copy the “upload” folder into “c:\inetpub\wwwroot” -> Within “c:\inetpub\wwwroot”, rename “upload” to “osTicket”</b></br><br/>
 
 
 
