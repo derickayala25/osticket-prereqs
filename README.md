@@ -42,8 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 <b>Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface)</b><br />
-:white_check_mark: &#x2611; &#9745; :black_square_button: :white_square_button: &#x1F5F9; ☑ "\uD83D\uDDF9" &#128505; [x] U+2611</br>
-Open a browser tab and type 127.0.0.1 in the address bar.  You should get a message similar to "This site can't be reached."<br/></b>
+Open a browser tab and type 127.0.0.1 in the address bar. You should get a message similar to <b>This site can't be reached.</b><br/>
 
 1. Type <b>Control Panel</b> in the search bar and open it. Select `Programs` > `Turn Windows features on or off`
 2. Tick :white_square_button: the <b>Internet Information Services</b> box and expand
