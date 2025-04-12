@@ -181,12 +181,17 @@ Note that some extensions are not enabled. Go back to `IIS` > `Sites` > `Default
 <b>Rename ost-sampleconfig.php</b></br>
 Open <b>File Explorer</b>. Copy and paste this path onto the window's address bar <b>C:\inetpub\wwwroot\osTicket\include</b>. Rename `ost-sampleconfig.php` to `ost-config.php`.</br><br/>
 
+<p>
+<img src="https://github.com/user-attachments/assets/a04ebf05-e382-446c-8cbc-9127cbdec2cd" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<b>Assign Permissions to `ost-config.php`</b></br>
+Right-click on `ost-config.php` and select <b>Properties</b>. Click on the <b>Security</b> tab. Click on `Advanced` > `Disable inheritance`. Click on `Remove all inherited permissions from this object`. Click `Add` > `Select a principal`. Type <b>Everyone</b> in the <b>Enter the object names to select (examples):</b> box. Click `Check Names` > `OK`. Check the `Full control` box and click `OK`. In the <b>Advanced Security Settings for ost-config.php</b> window, were it says <b>Name:</b> it should say <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>. Click `Apply` and `OK`. On the <b>ost-config.php Properties</b> window, click `OK`.</br><br/>
 
 
 
 
 
-<b>Assign Permissions to ost-config.php -> Right-click on “ost-config.php” -> Properties -> Security -> Advanced -> Disable inheritance -> Remove all inherited permissions from this object -> Click “Add” -> “Select a principal” -> type “Everyone” -> click “Check Names” -> click “OK” -> check the “Full control” box -> click “OK”. In the “Advanced Security Settings for ost-config.php” window, were it says “Name” it should say C:\inetpub\wwwroot\osTicket\include\ost-config.php. Click “Apply” and “OK”. On the “ost-config.php Properties” window, click “OK”</b></br><br/>
 
 <b>Continue Setting up osTicket in the browser (click Continue) -> Name Helpdesk -> Default email (receives email from customers) -> In the Admin User section, put in your name -> The email address in this section has to be different from the “System 	Settings” section -> Choose a username and password. DO NOT CLICK ON “Install Now” YET.</b></br><br/>
 
