@@ -189,11 +189,12 @@ Open <b>File Explorer</b>. Copy and paste this path onto the window's address ba
 Right-click on `ost-config.php` and select <b>Properties</b>. Click on the <b>Security</b> tab. Click on `Advanced` > `Disable inheritance`. Click on `Remove all inherited permissions from this object`. Click `Add` > `Select a principal`. Type <b>Everyone</b> in the <b>Enter the object names to select (examples):</b> box. Click `Check Names` > `OK`. Check the `Full control` box and click `OK`. In the <b>Advanced Security Settings for ost-config.php</b> window, were it says <b>Name:</b> it should say <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>. Click `Apply` and `OK`. On the <b>ost-config.php Properties</b> window, click `OK`.</br><br/>
 
 
+<p>
+<img src="https://github.com/user-attachments/assets/7bd07e82-156f-4e51-a504-100d388b0eae" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
-
-
-
-<b>Continue Setting up osTicket in the browser (click Continue) -> Name Helpdesk -> Default email (receives email from customers) -> In the Admin User section, put in your name -> The email address in this section has to be different from the “System 	Settings” section -> Choose a username and password. DO NOT CLICK ON “Install Now” YET.</b></br><br/>
+<b>Continue Setting up osTicket in the browser</b></br>
+Back in the osTicket Installer browser tab, Click `Continue`. In the <b>System Settings<b> section, in the `Helpdesk Name` box, type in whatever name you want to give your Helpdesk. In the `Default email` (receives email from customers) box, type in a made-up email (for this example). In the <b>Admin User</b> section, put in your made-up name, email address (it has to be different from the one in the <b>System Settings</b> section). Choose a username and password. <b>DO NOT</b> CLICK ON `Install Now` YET.</br><br/>
 
 <b>Install HeidiSQL by going to https://www.heidisql.com/ -> Downloads -> Installer, 64 bit. Go to the Downloads folder and double-click on HeidiSQL_12.10.0.7000_Setup. Select Install for all users (recommended) -> In the "HeidiSQL 12.10.0.7000 - Session manager" window, click New on the bottom left side -> use the word "root" as a password ->  click Open -> Right-click on “Unnamed”, “Create new”, “Database” -> Type “osTicket”, click “OK” -> You will see the new database (osTicket) under the “Unnamed” panel, but if you click it you won't see anything inside of it.</b></br><br/>
 
