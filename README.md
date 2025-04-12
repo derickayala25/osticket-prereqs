@@ -161,7 +161,17 @@ Once downloaded, double click the `osTicket-v1.18.2.zip` file and copy the <b>up
 <b>Reload IIS</b></br>
 Open IIS as an Administrator. Stop and Start the server once.</br><br/>
 
-<b>In the <b>Internet Information Services (IIS) Manager</b> window, click on the drop-down arrow on the left side of the <b>osTicket-vm...</b> name. Expand the <b>Sites</b> folder. Expand <b>Default Web Site</b>. Click ONCE on <b>osTicket<b/>.On the right side-panel, click on `Browse *:80 (http)`. It should open a new tab loading the osTicket site (http://localhost/osTicket/setup/).</b></br><br/>
+<p>
+<img src="https://github.com/user-attachments/assets/ef617686-9734-4ec5-8c51-7ce4cc098ead" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<b>Open the osTicket local site</b></br>
+<b>In the <b>Internet Information Services (IIS) Manager</b> window, click on the drop-down arrow on the left side of the <b>osTicket-vm...</b> name. Expand the <b>Sites</b> folder. Expand <b>Default Web Site</b>. Click ONCE on <b>osTicket<b/>.On the right side-panel, click on `Browse *:80 (http)`. It should open a new browser tab loading the osTicket site (http://localhost/osTicket/setup/).</b></br><br/>
+
+
+
+
+
 
 <b>Note that some extensions are not enabled. Go back to IIS -> sites -> Default Web Site -> osTicket -> Double-click PHP Manager -> Click “Enable or disable an extension” -> Enable php_imap.dll -> Enable php_intl.dll -> Enable php_opcache.dll -> Refresh the osTicket site in your browser, observe the changes</b></br><br/>
 
