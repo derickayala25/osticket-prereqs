@@ -166,7 +166,7 @@ Open IIS as an Administrator. Stop and Start the server once.</br><br/>
 </p>
 
 <b>Open the osTicket local site</b></br>
-In the <b>Internet Information Services (IIS) Manager</b> window, click on the drop-down arrow on the left side of the <b>osTicket-vm...</b> name. Expand the <b>Sites</b> folder. Expand <b>Default Web Site</b>. Click ONCE on <b>osTicket<b/>. On the right side-panel, click on `Browse *:80 (http)`. It should open a new browser tab loading the osTicket site (http://localhost/osTicket/setup/).</br><br/>
+In the <b>Internet Information Services (IIS) Manager</b> window, click on the drop-down arrow on the left side of the <b>osTicket-vm...</b> name. Expand the <b>Sites</b> folder. Expand <b>Default Web Site</b>. Click ONCE on <b>osTicket</b>. On the right side-panel, click on `Browse *:80 (http)`. It should open a new browser tab loading the osTicket site (http://localhost/osTicket/setup/).</br><br/>
 
 
 
