@@ -239,8 +239,11 @@ Now, copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwro
 <b>Log in to osTicket as an Administrator</b></br>
 Open a browser tab and paste this URL, http://localhost/osTicket/scp/login.php. Using the name and password you created (this was done in the <b>Continue Setting up osTicket in the browser</b> step), log in as an administrator. 
 
-<b>Open the End User browser tab</b>
-Open a browser tab and paste this URL, http://localhost/osTicket/. This is where an end user would submit a request.
-
+<p>
+<img src="https://github.com/user-attachments/assets/f15b7508-8807-4efc-bcdc-d365ee168ed4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
+
+<b>Open the End User browser tab</b>
+Open a browser tab and paste this URL, http://localhost/osTicket/. This is where an end user would submit a request.</br></br>
+
+
