@@ -183,7 +183,7 @@ Right-click on `ost-config.php` and select <b>Properties</b>. Click on the <b>Se
 </p>
 
 <b>Continue Setting up osTicket in the browser</b></br>
-Back in the osTicket Installer browser tab, Click `Continue`. In the <b>System Settings</b> section, in the <b>Helpdesk Name</b> box, type in whatever name you want to give your Helpdesk. In the <b>Default email</b> (receives email from customers) box, type in a made-up email (for this example). In the <b>Admin User</b> section, put in your made-up name, email address (it has to be different from the one in the <b>System Settings</b> section). Choose a username and password. <b><u>DO NOT</u></b> click on `Install Now` yet.</br><br/>
+Back in the osTicket Installer browser tab, Click `Continue`. In the <b>System Settings</b> section, in the <b>Helpdesk Name</b> box, type in whatever name you want to give your Helpdesk. In the <b>Default email</b> (receives email from customers) box, type in a made-up email (for this example). In the <b>Admin User</b> section, put in your made-up name, email address (it has to be different from the one in the <b>System Settings</b> section). Choose a username and password. <b>DO NOT</b> click on `Install Now` yet.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/a732121f-c155-4caf-a75d-e5c8420678a3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
