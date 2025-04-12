@@ -215,7 +215,7 @@ Go back to the osTicket browser tab. Under the <b>Database Settings</b> section,
 </p>
 
 <p>
-<img src="ttps://github.com/user-attachments/assets/935ac7db-2e86-46cb-8373-d75678fc966f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/935ac7db-2e86-46cb-8373-d75678fc966f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 Once the <b>Congratulations!</b> message appears on the osTicket browser tab, right-click on <b>osTicket</b> in the HeidiSQL window. Select `Refresh` and you should see all the osTicket files on the right-side panel. You can close the <b>HeidiSQL</b> window now.</br><br/>
