@@ -203,11 +203,18 @@ Back in the osTicket Installer browser tab, Click `Continue`. In the <b>System S
 <b>Install HeidiSQL</b></br>
 Go to https://www.heidisql.com/. Click on the <b>Downloads</b> tab. Close out any ad pop-up windows. Click on the `Installer, 64 bit` link. Go to the <b>Downloads</b> folder and double-click on `HeidiSQL_12.10.0.7000_Setup`. Select `Install for all users (recommended)`. Accept the agreement and click `Next` until you get to the <b>Ready to Install</b> section. Click `Install`. Click `Finish`. In the <b>HeidiSQL 12.10.0.7000 - Session manager</b> window, click <b>New</b> on the bottom left side. Use the word <b>root</b> as a password. Click `Open`. Right-click on <b>Unnamed</b> and select <b>Create new</b> > <b>Database</b>. Type <b>osTicket</b> and click `OK`. You will see the new database, <b>osTicket</b>, under the <b>Unnamed</b> panel. However, if you click it, you won't see anything inside of it in the right-side panel.</br><br/>
 
-
-
+<p>
+<img src="https://github.com/user-attachments/assets/73a6418f-11b6-4905-ba7b-daa26a6e9280" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <b>Continue Setting up osTicket in the browser</b></br>
-Go back to the osTicket browser tab. Under the <b>Database Settings</b> section, under <MySQL Database:</b>, type the word <b>osTicket</b>. For <b>MySQL Username:</b> type the word <b>root</b> and for <b>MySQL Password:</b> also type <b>root</b>. Click `Install Now!`</br><br/>
+Go back to the osTicket browser tab. Under the <b>Database Settings</b> section, under <b>MySQL Database:</b>, type the word <b>osTicket</b>. For <b>MySQL Username:</b> type the word <b>root</b> and for <b>MySQL Password:</b> also type <b>root</b>. Click `Install Now!`</br><br/>
+
+
+
+
+
+
 
 <b>Once the Congratulations message appears on the osTicket tab on the browser, right-click on the osTicket folder in the HeidiSQL window, select “Refresh” and you should see all the osTicket files in there. -> You can close the HeidiSQL window now</b></br><br/>
 
