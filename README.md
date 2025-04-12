@@ -152,7 +152,7 @@ In the <b>Internet Information Services (IIS) Manager</b> window, click on the <
 
 <b>Download osTicket</b></br>
 Go to https://osticket.com/. Click on <b>Get Started</b>. Navigate to the <b>Open Source</b> column and click on <b>Download</b>. Select the latest osTicket Core version and click on `Next Step`. Select your desired language and click on `Next Step`. Do not select any plug ins and click on `Next Step`. Click on `No Thanks`.</br>
-Double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder. Go to the open Windows `(C:)` drive folder, double-click the `inetpub` folder, double-click the `wwwroot` folder. Once inside the `wwwroot` folder, paste the <b>upload</b> folder. Rename the <b>upload</b> folder to <b>osTicket</b></br><br/>
+Once downloaded, double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder. Go to the open Windows `(C:)` drive folder, double-click the `inetpub` folder, double-click the `wwwroot` folder. Once inside the `wwwroot` folder, paste the <b>upload</b> folder. Rename the <b>upload</b> folder to <b>osTicket</b></br><br/>
 
 
 
