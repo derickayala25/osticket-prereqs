@@ -121,8 +121,8 @@ Go to https://visualstudio.microsoft.com/ and click on <b>Download Visual Studio
 
 
 <b>Install MySQL 9.2.0</b></br>
-Go to https://dev.mysql.com/downloads/mysql/, select <b>Windows (x86, 64-bit), MSI Installer</b>, click on <b>No thanks, just start my download</b>. Double-click the `mysql-9.2.0-winx64` file in your `Downloads` folder. Select `Typical` on the `Choose SetupType` section, click `Finish`.</br>
-In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Accounts and Roles</b> section. Choose a password and enter it. Click `Next` until you get to the <b>Apply Configuration</b> section. Once there, click `Execute`. Once that's done, click `Next` and then `Finish`. -> Standard Configuration -> In the “Please set the security options" choose a username and password</b></br><br/>
+Go to https://dev.mysql.com/downloads/mysql/. `Download` the <b>Windows (x86, 64-bit), MSI Installer</b> file. Click on <b>No thanks, just start my download.</b> Double-click the `mysql-9.2.0-winx64` file in your `Downloads` folder. Click `Next`, accept the terms and click `Next`. Select `Typical` on the <b>Choose Setup Type</b> section and click `Install`. Click `Finish`.</br>
+In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Accounts and Roles</b> section. Type the word <b>root</b> as your password. Click `Next` until you get to the <b>Apply Configuration</b> section. Once there, click `Execute`. Once that's done, click `Next` and then `Finish`.</br><br/>
 
 <b>Open IIS as an Admin (Type “iis” in the Start Menu and select “Run as administrator”)</b></br><br/>
 
