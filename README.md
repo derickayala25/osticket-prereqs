@@ -220,8 +220,13 @@ Go back to the osTicket browser tab. Under the <b>Database Settings</b> section,
 
 Once the <b>Congratulations!</b> message appears on the osTicket browser tab, right-click on <b>osTicket</b> in the HeidiSQL window. Select `Refresh` and you should see all the osTicket files on the right-side panel. You can close the <b>HeidiSQL</b> window now.</br><br/>
 
+<p>
+<img src="https://github.com/user-attachments/assets/e54b9982-d0f5-4532-98f8-0fec023df326" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <b>Clean up</b></br>
-Go to C:\inetpub\wwwroot\osTicket\include. Right-click on ost-config.php and select Properties. In the General tab, go to the Attributes section and click on the "Read-Only" box. Click Apply and then OK. You can now close any open file windows.</b></br><br/>
+Open <b>File Explorer</b>. Copy and paste this path onto the window's address bar <b>C:\inetpub\wwwroot\osTicket</b>. Right-click on the <b>setup</b> folder and select <b>Delete</b>.
+Now, copy and paste this path onto the window's address bar <b>C:\inetpub\wwwroot\osTicket\include</b>. Right-click on <b>ost-config.php</b> and select <b>Properties</b>. In the <b>General tab</b>, go to the <b>Attributes</b> section. Click on the <b>Read-Only</b> box. Click `Apply` and then `OK`. You can now close any open file windows.</br><br/>
 
 <b>End users URL is http://localhost/osTicket/ while the Staff URL is http://localhost/osTicket/scp/login.php
 
