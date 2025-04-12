@@ -152,16 +152,16 @@ In the <b>Internet Information Services (IIS) Manager</b> window, click on the <
 
 <b>Download osTicket</b></br>
 Go to https://osticket.com/. Click on <b>Get Started</b>. Navigate to the <b>Open Source</b> column and click on <b>Download</b>. Select the latest osTicket Core version and click on `Next Step`. Select your desired language and click on `Next Step`. Do not select any plug ins and click on `Next Step`. Click on `No Thanks`.</br>
-Once downloaded, double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder. Go to the open Windows `(C:)` drive folder, double-click the `inetpub` folder, double-click the `wwwroot` folder. Once inside the `wwwroot` folder, paste the <b>upload</b> folder. Rename the <b>upload</b> folder to <b>osTicket</b></br><br/>
+Once downloaded, double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder. Go to the open Windows `(C:)` drive folder, double-click the `inetpub` folder, double-click the `wwwroot` folder. Once inside the `wwwroot` folder, paste the <b>upload</b> folder. Rename the <b>upload</b> folder to <b>osTicket</b>.</br><br/>
 
+<p>
+<img src="https://github.com/user-attachments/assets/79a4cd47-aca3-4d81-be75-a986aa529c40" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
+<b>Reload IIS</b></br>
+Open IIS as an Administrator. Stop and Start the server once.</br><br/>
 
-
-
-
-<b>Reload IIS (Open IIS, Stop and Start the server) -> Make sure you open IIS as Administrator</b></br><br/>
-
-<b>In the “Internet Information Services (IIS) Manager” window, click on the drop-down arrow by the “osTicket-vm...” name. -> Expand the “Sites” folder -> Expand “Default Web Site” -> Click ONCE on “osTicket” -> On the right-side panel, click “Browse *:80 (http)”. It should open a new tab loading the osTicket site (http://localhost/osTicket/setup/)</b></br><br/>
+<b>In the <b>Internet Information Services (IIS) Manager</b> window, click on the drop-down arrow on the left side of the <b>osTicket-vm...</b> name. Expand the <b>Sites</b> folder. Expand <b>Default Web Site</b>. Click ONCE on <b>osTicket<b/>.On the right side-panel, click on `Browse *:80 (http)`. It should open a new tab loading the osTicket site (http://localhost/osTicket/setup/).</b></br><br/>
 
 <b>Note that some extensions are not enabled. Go back to IIS -> sites -> Default Web Site -> osTicket -> Double-click PHP Manager -> Click “Enable or disable an extension” -> Enable php_imap.dll -> Enable php_intl.dll -> Enable php_opcache.dll -> Refresh the osTicket site in your browser, observe the changes</b></br><br/>
 
