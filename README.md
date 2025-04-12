@@ -146,11 +146,13 @@ Double-click on the <b>PHP Manager</b> icon inside the <b>Internet Information S
 In the <b>Internet Information Services (IIS) Manager</b> window, click on the <b>osTicket-vm...</b> name on the left side under <b>Connections</b>. You'll see a right side panel open that says <b>Manage Server</b>. There you will have the option to `Restart`, `Start` or `Stop` the server. You can also right-click on the <b>osTicket-vm...</b> name and start or stop there. Stop and start the server once.</br><br/>
 
 
-
-
+<p>
+<img src="https://github.com/user-attachments/assets/63333852-7346-4007-9594-62522515e9b2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <b>Download osTicket</b></br>
-Go to https://osticket.com/. Click on <b>Get Started</b>. Download the Open Source file -> select an osTicket Core version, click Next Step -> select your desired language, click Next Step -> you can skip the plug ins -> No Thanks. -> Unzip “osTicket-v1.18.2.zip” and copy the “upload” folder into “c:\inetpub\wwwroot” -> Within “c:\inetpub\wwwroot”, rename “upload” to “osTicket”</b></br><br/>
+Go to https://osticket.com/. Click on <b>Get Started</b>. Navigate to the <b>Open Source</b> column and click on <b>Download</b>. Select the latest osTicket Core version and click on `Next Step`. Select your desired language and click on `Next Step`. Do not select any plug ins and click on `Next Step`. Click on `No Thanks`.</br>
+Double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder. Go to the open Windows `(C:)` drive folder, double-click the `inetpub` folder, double-click the `wwwroot` folder. Once inside the `wwwroot` folder, paste the <b>upload</b> folder. Rename the <b>upload</b> folder to <b>osTicket</b></br><br/>
 
 
 
