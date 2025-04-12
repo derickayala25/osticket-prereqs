@@ -138,7 +138,8 @@ Type <b>IIS</b> in the search bar and select `Run as administrator`.</b></br><br
 <b>Register PHP from within IIS</b></br>
 Double-click on the <b>PHP Manager</b> icon inside the <b>Internet Information Services (IIS) Manager</b> window. Click on the <b>Register new PHP version</b> link. A window will open. Click on the ellipsis `...`. Double-click on the <b>PHP</b> folder. Double-click the `php-cgi` file and click `OK`.</br><br/>
 
-<b>Reload IIS (Open IIS, Stop and Start the server) -> In the “Internet Information Services (IIS) Manager” window, click on the 	“osTicket-vm...” name on the left side under “Connections” and you'll see a right side panel open that says “Manage Server” -> There you will have the option to “Restart”, “Start” or “Stop” the server -> You can also right-click on the “osTicket-vm...” name and start or stop there.</b>.</br><br/>
+<b>Reload IIS (Open IIS, Stop and Start the server)</b></br>
+In the <b>Internet Information Services (IIS) Manager</b> window, click on the 	<b>osTicket-vm...</b> name on the left side under <b>Connections</b>. You'll see a right side panel open that says <b>Manage Server</b>. There you will have the option to `Restart`, `Start` or `Stop` the server. You can also right-click on the “osTicket-vm...” name and start or stop there.</b>.</br><br/>
 
 <b>Download osTicket by going to https://osticket.com/ -> Get Started -> Download the Open Source file -> select an osTicket Core version, click Next Step -> select your desired language, click Next Step -> you can skip the plug ins -> No Thanks. -> Unzip “osTicket-v1.18.2.zip” and copy the “upload” folder into “c:\inetpub\wwwroot” -> Within “c:\inetpub\wwwroot”, rename “upload” to “osTicket”</b></br><br/>
 
