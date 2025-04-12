@@ -210,13 +210,15 @@ Go to https://www.heidisql.com/. Click on the <b>Downloads</b> tab. Close out an
 <b>Continue Setting up osTicket in the browser</b></br>
 Go back to the osTicket browser tab. Under the <b>Database Settings</b> section, under <b>MySQL Database:</b>, type the word <b>osTicket</b>. For <b>MySQL Username:</b> type the word <b>root</b> and for <b>MySQL Password:</b> also type <b>root</b>. Click `Install Now!`</br><br/>
 
+<p>
+<img src="https://github.com/user-attachments/assets/9a3a8e2a-aaae-4f2e-b4e2-71c7ff82daa4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
+<p>
+<img src="ttps://github.com/user-attachments/assets/935ac7db-2e86-46cb-8373-d75678fc966f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
-
-
-
-
-<b>Once the Congratulations message appears on the osTicket tab on the browser, right-click on the osTicket folder in the HeidiSQL window, select “Refresh” and you should see all the osTicket files in there. -> You can close the HeidiSQL window now</b></br><br/>
+Once the <b>Congratulations!</b> message appears on the osTicket browser tab, right-click on <b>osTicket</b> in the HeidiSQL window. Select `Refresh` and you should see all the osTicket files on the right-side panel. You can close the <b>HeidiSQL</b> window now.</br><br/>
 
 <b>Clean up -> Go to C:\inetpub\wwwroot\osTicket\include. Right-click on ost-config.php and select Properties. In the General tab, go to the Attributes section and click on the "Read-Only" box. Click Apply and then OK. You can now close any open file windows.</b></br><br/>
 
