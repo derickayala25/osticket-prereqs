@@ -178,7 +178,7 @@ Note that some extensions are not enabled. Go back to `IIS` > `Sites` > `Default
 <img src="https://github.com/user-attachments/assets/e1ecb51f-b505-4ea1-82b6-224b1cd93aa4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<b>Rename ost-sampleconfig.php</b>
+<b>Rename ost-sampleconfig.php</b></br>
 Open <b>File Explorer</b>. Copy and paste this path onto the window's address bar <b>C:\inetpub\wwwroot\osTicket\include</b>. Rename `ost-sampleconfig.php` to `ost-config.php`.</br><br/>
 
 
