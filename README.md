@@ -22,14 +22,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- <b>osTicket Core, v1.18.2</b>
-- <b>HeidiSQL 12.10.0.7000 64bit build</b>
-- <b>MySQL v9.2.0 (win64)</b>
-- <b>php-8.3.20-nts-Win32-vs16-x64</b>
-- <b>PHP Manager for IIS v1.5.0</b>
-- <b>IIS URL Rewrite Module 2.1</b>  
-- <b>Microsoft Visual C++ Redistributable for Visual Studio 2015</b>
-- <b>Visual Studio 2022 v17.13 (Community)</b>
+- osTicket Core, v1.18.2
+- HeidiSQL 12.10.0.7000 64bit build
+- MySQL v9.2.0 (win64)
+- php-8.3.20-nts-Win32-vs16-x64
+- PHP Manager for IIS v1.5.0
+- IIS URL Rewrite Module 2.1 
+- Microsoft Visual C++ Redistributable for Visual Studio 2015
+- Visual Studio 2022 v17.13 (Community)
 
 ![image](https://github.com/user-attachments/assets/b316e094-837e-41b4-a7f9-f1bf8e62acab)<br/>
 
