@@ -51,12 +51,7 @@ Open a browser tab and type 127.0.0.1 in the address bar.  You should get a mess
 4. Check &#x1F5F9; the `CGI` box and click `OK`. Once the operation is done, click `Close` and close the <b>Programs</b> window.<br/>
 5. Refresh the browser tab and it should open to a tab similar to the image above.
 </p>
-### 🌐 Enable Internet Information Services (IIS)
 
-1. Navigate to **Control Panel** > `Uninstall a program` > `Turn Windows features on or off`
-2. Tick &#9989;`Internet Information Services`
-3. Expand **Internet Information Services** > **World Wide Web Services** > **Application Development Features**
-4. Tick &#9989;`CGI` > `OK` > After it finishes, click `Close`
 <br/>
 
 
