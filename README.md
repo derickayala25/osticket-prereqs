@@ -232,13 +232,15 @@ Once the <b>Congratulations!</b> message appears on the osTicket browser tab, ri
 Open <b>File Explorer</b>. Copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket</b>. Right-click on the <b>setup</b> folder and select <b>Delete</b>.
 Now, copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket\include</b>. Right-click on <b>ost-config.php</b> and select <b>Properties</b>. In the <b>General</b> tab, go to the <b>Attributes</b> section. Click on the <b>Read-Only</b> box. Click `Apply` and then `OK`. You can now close any open file windows.</br><br/>
 
-
-
+<p>
+<img src="https://github.com/user-attachments/assets/28d37b92-8265-4df6-8ceb-edcf702a7837" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <b>Log in to osTicket as an Administrator</b></br>
-Open a browser tab and type http://localhost/osTicket/. Log in as an administrator using the name and password you created. 
+Open a browser tab and paste this URL, http://localhost/osTicket/scp/login.php. Using the name and password you created (this was done in the <b>Continue Setting up osTicket in the browser</b> step), log in as an administrator. 
 
-<b>The End users URL is http://localhost/osTicket/ while the Staff URL is http://localhost/osTicket/scp/login.php
+<b>Open the End User browser tab</b>
+Open a browser tab and paste this URL, http://localhost/osTicket/. This is where an end user would submit a request.
 
 </p>
 <br />
