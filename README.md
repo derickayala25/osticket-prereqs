@@ -228,11 +228,17 @@ Once the <b>Congratulations!</b> message appears on the osTicket browser tab, ri
 <img src="https://github.com/user-attachments/assets/30a1df91-6309-425a-aaf5-e0e8a5ee6153" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<b>Clean up</b></br>
+<b>Cleanup</b></br>
 Open <b>File Explorer</b>. Copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket</b>. Right-click on the <b>setup</b> folder and select <b>Delete</b>.
-Now, copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket\include</b>. Right-click on <b>ost-config.php</b> and select <b>Properties</b>. In the <b>General tab</b>, go to the <b>Attributes</b> section. Click on the <b>Read-Only</b> box. Click `Apply` and then `OK`. You can now close any open file windows.</br><br/>
+Now, copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket\include</b>. Right-click on <b>ost-config.php</b> and select <b>Properties</b>. In the <b>General</b> tab, go to the <b>Attributes</b> section. Click on the <b>Read-Only</b> box. Click `Apply` and then `OK`. You can now close any open file windows.</br><br/>
 
-<b>End users URL is http://localhost/osTicket/ while the Staff URL is http://localhost/osTicket/scp/login.php
+
+
+
+<b>Log in to osTicket as an Administrator</b></br>
+Open a browser tab and type http://localhost/osTicket/. Log in as an administrator using the name and password you created. 
+
+<b>The End users URL is http://localhost/osTicket/ while the Staff URL is http://localhost/osTicket/scp/login.php
 
 </p>
 <br />
