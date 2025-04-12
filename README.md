@@ -174,13 +174,17 @@ In the <b>Internet Information Services (IIS) Manager</b> window, click on the d
 
 Note that some extensions are not enabled. Go back to `IIS` > `Sites` > `Default Web Site` > `osTicket`. Double-click <b>PHP Manager</b>. Click `Enable or disable an extension`. Right-click on the greyed out `php_imap.dll` and select `Enable`. Enable `php_intl.dll`. Enable `php_opcache.dll`. Refresh the <b>osTicket</b> site in your browser and observe the changes. You should have only one extension not enabled.</br><br/>
 
+<p>
+<img src="https://github.com/user-attachments/assets/e1ecb51f-b505-4ea1-82b6-224b1cd93aa4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<b>Rename ost-sampleconfig.php</b>
+Open <b>File Explorer</>. Copy and paste this path onto the window's address bar <b>C:\inetpub\wwwroot\osTicket\include</b>. Rename `ost-sampleconfig.php` to `ost-config.php`.</br><br/>
 
 
 
 
 
-
-<b>Using this path, C:\inetpub\wwwroot\osTicket\include, rename ost-sampleconfig.php to ost-config.php</b></br><br/>
 
 <b>Assign Permissions to ost-config.php -> Right-click on “ost-config.php” -> Properties -> Security -> Advanced -> Disable inheritance -> Remove all inherited permissions from this object -> Click “Add” -> “Select a principal” -> type “Everyone” -> click “Check Names” -> click “OK” -> check the “Full control” box -> click “OK”. In the “Advanced Security Settings for ost-config.php” window, were it says “Name” it should say C:\inetpub\wwwroot\osTicket\include\ost-config.php. Click “Apply” and “OK”. On the “ost-config.php Properties” window, click “OK”</b></br><br/>
 
