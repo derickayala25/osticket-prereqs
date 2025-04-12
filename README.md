@@ -196,14 +196,15 @@ Right-click on `ost-config.php` and select <b>Properties</b>. Click on the <b>Se
 <b>Continue Setting up osTicket in the browser</b></br>
 Back in the osTicket Installer browser tab, Click `Continue`. In the <b>System Settings</b> section, in the <b>Helpdesk Name</b> box, type in whatever name you want to give your Helpdesk. In the <b>Default email</b> (receives email from customers) box, type in a made-up email (for this example). In the <b>Admin User</b> section, put in your made-up name, email address (it has to be different from the one in the <b>System Settings</b> section). Choose a username and password. <b>DO NOT</b> click on `Install Now` yet.</br><br/>
 
+<p>
+<img src="https://github.com/user-attachments/assets/a732121f-c155-4caf-a75d-e5c8420678a3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<b>Install HeidiSQL</b>
+Go to https://www.heidisql.com/. Click on the <b>Downloads</b> tab. Close out any ad pop-up windows. Click on the `Installer, 64 bit` link. Go to the <b>Downloads</b> folder and double-click on `HeidiSQL_12.10.0.7000_Setup`. Select `Install for all users (recommended)`. Accept the agreement and click `Next` until you get to the <b>Ready to Install</b> section. Click `Install`. Click `Finish`. In the <b>HeidiSQL 12.10.0.7000 - Session manager</b> window, click New on the bottom left side. Use the word <b>root</b> as a password. Click `Open`. Right-click on <b>Unnamed</b> > and select <b>Create new</b> > <b>Database</b>. Type <b>osTicket</b> and click `OK`. You will see the new database, <b>osTicket</b>, under the <b>Unnamed</b> panel. However, if you click it, you won't see anything inside of it in the right-side panel.</br><br/>
 
 
 
-
-
-
-
-<b>Install HeidiSQL by going to https://www.heidisql.com/ -> Downloads -> Installer, 64 bit. Go to the Downloads folder and double-click on HeidiSQL_12.10.0.7000_Setup. Select Install for all users (recommended) -> In the "HeidiSQL 12.10.0.7000 - Session manager" window, click New on the bottom left side -> use the word "root" as a password ->  click Open -> Right-click on “Unnamed”, “Create new”, “Database” -> Type “osTicket”, click “OK” -> You will see the new database (osTicket) under the “Unnamed” panel, but if you click it you won't see anything inside of it.</b></br><br/>
 
 <b>Continue Setting up osTicket in the browser -> MySQL Database: osTicket -> MySQL Username: root -> MySQL Password: root -> Click “Install Now!”</b></br><br/>
 
