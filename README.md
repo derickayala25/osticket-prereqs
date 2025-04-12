@@ -116,7 +116,12 @@ Go to https://www.microsoft.com/en-us/download/details.aspx?id=48145, click on <
 <b>Install Visual Studio</b></br>
 Go to https://visualstudio.microsoft.com/ and click on <b>Download Visual Studio</b>. Once downloaded, double-click the `VisualStudioSetup` file and click `Continue`. In the `Workloads` section, under `Other toolsets`, select <b>Data storage and processing</b>. Click `Install`. Once it finishes installing, close the <b>Visual Studio 2022</b> windows.</b></br><br/>
 
-<b>Install MySQL 9.2.0 by going to https://dev.mysql.com/downloads/mysql/, selecting Windows (x86, 64-bit), MSI Installer, clicking on "No thanks, just start my download". Double-click the mysql-9.2.0-winx64 file in your Downloads folder. Select “Typical” on the “Choose SetupType” section, click “Finish”. In the "MySQL Configurator" window, click Next until you get to the "Accounts and Roles" section. Use the word "root" as the password. Click Next until you get to the "Apply Configuration" section, once there click "Execute". Once that's done, click Next and then Finish. -> Standard Configuration -> In the “Please set the security options" choose a username and password</b></br><br/>
+
+
+
+
+<b>Install MySQL 9.2.0</b></br>
+Go to https://dev.mysql.com/downloads/mysql/, select <b>Windows (x86, 64-bit), MSI Installer</b>, click on <b>No thanks, just start my download</b>. Double-click the `mysql-9.2.0-winx64` file in your `Downloads` folder. Select `Typical` on the `Choose SetupType` section, click `Finish`. In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Accounts and Roles</b> section. Use the word <b>root</b> as the password. Click `Next` until you get to the <b>Apply Configuration</b> section. Once there, click `Execute`. Once that's done, click `Next` and then `Finish`. -> Standard Configuration -> In the “Please set the security options" choose a username and password</b></br><br/>
 
 <b>Open IIS as an Admin (Type “iis” in the Start Menu and select “Run as administrator”)</b></br><br/>
 
