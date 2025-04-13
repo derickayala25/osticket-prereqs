@@ -168,7 +168,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 3. Select the latest osTicket Core version and click on <b>Next Step</b>. Select your desired language and click on <b>Next Step</b>.
 4. Do not select any plug ins and click on <b>Next Step</b>. Click on <b>No Thanks</b>.
 5. Once downloaded, double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder.
-6. Go to the open Windows <b>(C:)</b> drive folder, double-click the <b>inetpub</b> folder and then double-click the <b>wwwroot</b> folder.
+6. Go to the open <b>Windows (C:)</b> drive folder, double-click the <b>inetpub</b> folder and then double-click the <b>wwwroot</b> folder.
 7. Once inside the <b>wwwroot</b> folder, paste the <b>upload</b> folder.
 8. Rename the <b>upload</b> folder to <b>osTicket</b>.</br><br/>
 
