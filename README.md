@@ -115,7 +115,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 <b>Install Visual Studio</b></br>
 1. Go to https://visualstudio.microsoft.com/ and click on <b>Download Visual Studio</b>.
 2. Once downloaded, double-click the `VisualStudioSetup` file and click `Continue`.
-3. In the `Workloads` section, under `Other toolsets`, select <b>Data storage and processing</b>.
+3. In the <b>Workloads</b> section, under <b>Other toolsets</b>, select <b>Data storage and processing</b>.
 4. Click `Install`. Once it finishes installing, close the <b>Visual Studio 2022</b> windows.</b></br><br/>
 
 <p>
