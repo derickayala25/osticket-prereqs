@@ -59,8 +59,9 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 </p>
 
 <b>Install PHP Manager for IIS</b></br>
-Navigate to https://github.com/phpmanager/phpmanager/releases on your browser. Click on the file named <b>PHPManagerForIIS_x64.msi</b>. The file will be downloaded automatically.
-Double-click the file, click `Next` > accept the terms > `Next` > `Next` > `Install` > `Finish`.<br/><br/>
+1. Navigate to https://github.com/phpmanager/phpmanager/releases on your browser.
+2. Click on the file named <b>PHPManagerForIIS_x64.msi</b>. The file will be downloaded automatically.
+3. Double-click the file, click `Next` > accept the terms > `Next` > `Next` > `Install` > `Finish`.<br/><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/56b5e9aa-532b-4f0e-92f5-a759bb9622ad" height="80%" width="80%" alt="Disk Sanitization Steps"/>
