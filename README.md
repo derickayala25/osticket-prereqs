@@ -194,7 +194,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 
 <b>Enable extensions</b></br>
 1. Note that some extensions are not enabled.
-2. Go back to `IIS` > `Sites` > `Default Web Site` > `osTicket`. Double-click <b>PHP Manager</b>.
+2. Go back to <b>IIS</b> > <b>Sites</b> > <b>Default Web Site</b> > <b>osTicket</b>. Double-click <b>PHP Manager</b>.
 3. Click `Enable or disable an extension`. Right-click on the greyed out `php_imap.dll` and select `Enable`. Enable `php_intl.dll`. Enable `php_opcache.dll`.
 4. Refresh the <b>osTicket</b> site in your browser and observe the changes. You should have only one extension not enabled.</br><br/>
 
