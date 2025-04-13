@@ -168,7 +168,7 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 3. Select the latest osTicket Core version and click on `Next Step`. Select your desired language and click on `Next Step`.
 4. Do not select any plug ins and click on `Next Step`. Click on `No Thanks`.
 5. Once downloaded, double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder.
-6. Go to the open Windows `(C:)` drive folder, double-click the `inetpub` folder, double-click the `wwwroot` folder.
+6. Go to the open Windows `(C:)` drive folder, double-click the `inetpub` folder and then double-click the `wwwroot` folder.
 7. Once inside the `wwwroot` folder, paste the <b>upload</b> folder.
 8. Rename the <b>upload</b> folder to <b>osTicket</b>.</br><br/>
 
@@ -177,56 +177,83 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 </p>
 
 <b>Reload IIS</b></br>
-Open IIS as an Administrator. Stop and Start the server once.</br><br/>
+1. Open IIS as an Administrator. Stop and Start the server once.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/ef617686-9734-4ec5-8c51-7ce4cc098ead" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Open the osTicket local site</b></br>
-In the <b>Internet Information Services (IIS) Manager</b> window, click on the drop-down arrow on the left side of the <b>osTicket-vm...</b> name. Expand the <b>Sites</b> folder. Expand <b>Default Web Site</b>. Click ONCE on <b>osTicket</b>. On the right side-panel, click on `Browse *:80 (http)`. It should open a new browser tab loading the osTicket site (http://localhost/osTicket/setup/).</br><br/>
+1. In the <b>Internet Information Services (IIS) Manager</b> window, click on the drop-down arrow on the left side of the <b>osTicket-vm...</b> name.
+2. Expand the <b>Sites</b> folder. Expand <b>Default Web Site</b>. Click ONCE on <b>osTicket</b>.
+3. On the right side-panel, click on `Browse *:80 (http)`. It should open a new browser tab loading the osTicket site (http://localhost/osTicket/setup/).</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/3f7d5414-ded2-4eb5-a384-a3a09219ee9c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-Note that some extensions are not enabled. Go back to `IIS` > `Sites` > `Default Web Site` > `osTicket`. Double-click <b>PHP Manager</b>. Click `Enable or disable an extension`. Right-click on the greyed out `php_imap.dll` and select `Enable`. Enable `php_intl.dll`. Enable `php_opcache.dll`. Refresh the <b>osTicket</b> site in your browser and observe the changes. You should have only one extension not enabled.</br><br/>
+<b>Enable extensions</b></br>
+1. Note that some extensions are not enabled.
+2. Go back to `IIS` > `Sites` > `Default Web Site` > `osTicket`. Double-click <b>PHP Manager</b>.
+3. Click `Enable or disable an extension`. Right-click on the greyed out `php_imap.dll` and select `Enable`. Enable `php_intl.dll`. Enable `php_opcache.dll`.
+4. Refresh the <b>osTicket</b> site in your browser and observe the changes. You should have only one extension not enabled.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/e1ecb51f-b505-4ea1-82b6-224b1cd93aa4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Rename ost-sampleconfig.php</b></br>
-Open <b>File Explorer</b>. Copy and paste this path onto the window's address bar <b>C:\inetpub\wwwroot\osTicket\include</b>. Rename `ost-sampleconfig.php` to `ost-config.php`.</br><br/>
+1. Open <b>File Explorer</b>.
+2. Copy and paste this path onto the window's address bar <b>C:\inetpub\wwwroot\osTicket\include</b>.
+3. Rename `ost-sampleconfig.php` to `ost-config.php`.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/a04ebf05-e382-446c-8cbc-9127cbdec2cd" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Assign Permissions to `ost-config.php`</b></br>
-Right-click on `ost-config.php` and select <b>Properties</b>. Click on the <b>Security</b> tab. Click on `Advanced` > `Disable inheritance`. Click on `Remove all inherited permissions from this object`. Click `Add` > `Select a principal`. Type <b>Everyone</b> in the <b>Enter the object names to select (examples):</b> box. Click `Check Names` > `OK`. Check the `Full control` box and click `OK`. In the <b>Advanced Security Settings for ost-config.php</b> window, were it says <b>Name:</b> it should say <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>. Click `Apply` and `OK`. On the <b>ost-config.php Properties</b> window, click `OK`.</br><br/>
-
+1. Right-click on `ost-config.php` and select <b>Properties</b>.
+2. Click on the <b>Security</b> tab. Click on `Advanced` > `Disable inheritance`. Click on `Remove all inherited permissions from this object`.
+3. Click `Add` > `Select a principal`. Type <b>Everyone</b> in the <b>Enter the object names to select (examples):</b> box.
+4. Click `Check Names` > `OK`. Check the `Full control` box and click `OK`.
+5. In the <b>Advanced Security Settings for ost-config.php</b> window, were it says <b>Name:</b> it should say <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>.
+6. Click `Apply` and `OK`. On the <b>ost-config.php Properties</b> window, click `OK`.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/7bd07e82-156f-4e51-a504-100d388b0eae" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Continue Setting up osTicket in the browser</b></br>
-Back in the osTicket Installer browser tab, Click `Continue`. In the <b>System Settings</b> section, in the <b>Helpdesk Name</b> box, type in whatever name you want to give your Helpdesk. In the <b>Default email</b> (receives email from customers) box, type in a made-up email (for this example). In the <b>Admin User</b> section, put in your made-up name, email address (it has to be different from the one in the <b>System Settings</b> section). Choose a username and password. <b>DO NOT</b> click on `Install Now` yet.</br><br/>
+1. Back in the osTicket Installer browser tab, Click `Continue`.
+2. In the <b>System Settings</b> section, in the <b>Helpdesk Name</b> box, type in whatever name you want to give your Helpdesk.
+3. In the <b>Default email</b> (receives email from customers) box, type in a made-up email (for this example).
+4. In the <b>Admin User</b> section, put in your made-up name, email address (it has to be different from the one in the <b>System Settings</b> section).
+5. Choose a username and password. <b>DO NOT</b> click on `Install Now` yet.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/a732121f-c155-4caf-a75d-e5c8420678a3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Install HeidiSQL</b></br>
-Go to https://www.heidisql.com/. Click on the <b>Downloads</b> tab. Close out any ad pop-up windows. Click on the `Installer, 64 bit` link. Go to the <b>Downloads</b> folder and double-click on `HeidiSQL_12.10.0.7000_Setup`. Select `Install for all users (recommended)`. Accept the agreement and click `Next` until you get to the <b>Ready to Install</b> section. Click `Install`. Click `Finish`. In the <b>HeidiSQL 12.10.0.7000 - Session manager</b> window, click <b>New</b> on the bottom left side. Use the word <b>root</b> as a password. Click `Open`. Right-click on <b>Unnamed</b> and select <b>Create new</b> > <b>Database</b>. Type <b>osTicket</b> and click `OK`. You will see the new database, <b>osTicket</b>, under the <b>Unnamed</b> panel. However, if you click it, you won't see anything inside of it in the right-side panel.</br><br/>
+1. Go to https://www.heidisql.com/.
+2. Click on the <b>Downloads</b> tab. Close out any ad pop-up windows.
+3. Click on the `Installer, 64 bit` link. Go to the <b>Downloads</b> folder and double-click on `HeidiSQL_12.10.0.7000_Setup`.
+4. Select `Install for all users (recommended)`. Accept the agreement and click `Next` until you get to the <b>Ready to Install</b> section.
+5. Click `Install`. Click `Finish`.
+6. In the <b>HeidiSQL 12.10.0.7000 - Session manager</b> window, click <b>New</b> on the bottom left side. Use the word <b>root</b> as a password.
+7. Click `Open`. Right-click on <b>Unnamed</b> and select <b>Create new</b> > <b>Database</b>.
+8. Type <b>osTicket</b> and click `OK`.
+9. You will see the new database, <b>osTicket</b>, under the <b>Unnamed</b> panel. However, if you click it, you won't see anything inside of it in the right-side panel.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/73a6418f-11b6-4905-ba7b-daa26a6e9280" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Continue Setting up osTicket in the browser</b></br>
-Go back to the osTicket browser tab. Under the <b>Database Settings</b> section, under <b>MySQL Database:</b>, type the word <b>osTicket</b>. For <b>MySQL Username:</b> type the word <b>root</b> and for <b>MySQL Password:</b> also type <b>root</b>. Click `Install Now!`</br><br/>
+1. Go back to the osTicket browser tab.
+2. Under the <b>Database Settings</b> section, under <b>MySQL Database:</b>, type the word <b>osTicket</b>.
+3. For <b>MySQL Username:</b> type the word <b>root</b> and for <b>MySQL Password:</b> also type <b>root</b>.
+4. Click `Install Now!`</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/9a3a8e2a-aaae-4f2e-b4e2-71c7ff82daa4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -236,7 +263,10 @@ Go back to the osTicket browser tab. Under the <b>Database Settings</b> section,
 <img src="https://github.com/user-attachments/assets/935ac7db-2e86-46cb-8373-d75678fc966f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-Once the <b>Congratulations!</b> message appears on the osTicket browser tab, right-click on <b>osTicket</b> in the HeidiSQL window. Select `Refresh` and you should see all the osTicket files on the right-side panel. You can close the <b>HeidiSQL</b> window now.</br><br/>
+<b>Finalizing the installation</b></br>
+1. Once the <b>Congratulations!</b> message appears on the osTicket browser tab, right-click on <b>osTicket</b> in the HeidiSQL window.
+2. Select `Refresh` and you should see all the osTicket files on the right-side panel.
+3. You can close the <b>HeidiSQL</b> window now.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/e54b9982-d0f5-4532-98f8-0fec023df326" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -247,8 +277,13 @@ Once the <b>Congratulations!</b> message appears on the osTicket browser tab, ri
 </p>
 
 <b>Cleanup</b></br>
-Open <b>File Explorer</b>. Copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket</b>. Right-click on the <b>setup</b> folder and select <b>Delete</b>.
-Now, copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket\include</b>. Right-click on <b>ost-config.php</b> and select <b>Properties</b>. In the <b>General</b> tab, go to the <b>Attributes</b> section. Click on the <b>Read-Only</b> box. Click `Apply` and then `OK`. You can now close any open file windows.</br><br/>
+1. Open <b>File Explorer</b>.
+2. Copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket</b>.
+3. Right-click on the <b>setup</b> folder and select <b>Delete</b>.
+4. Now, copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket\include</b>.
+5. Right-click on <b>ost-config.php</b> and select <b>Properties</b>. In the <b>General</b> tab, go to the <b>Attributes</b> section.
+6. Click on the <b>Read-Only</b> box. Click `Apply` and then `OK`.
+7. You can now close any open file windows.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/28d37b92-8265-4df6-8ceb-edcf702a7837" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -259,13 +294,15 @@ Now, copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwro
 </p>
 
 <b>Log in to osTicket as an Administrator</b></br>
-Open a browser tab and paste this URL, http://localhost/osTicket/scp/login.php. Using the name and password you created (this was done in the <b>Continue Setting up osTicket in the browser</b> step), log in as an administrator. 
+1. Open a browser tab and paste this URL, http://localhost/osTicket/scp/login.php.
+2. Using the name and password you created (this was done in the <b>Continue Setting up osTicket in the browser</b> step), log in as an administrator. 
 
 <p>
 <img src="https://github.com/user-attachments/assets/f15b7508-8807-4efc-bcdc-d365ee168ed4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Open the End User browser tab</b></br>
-Open a browser tab and paste this URL, http://localhost/osTicket/. This is where an end user would submit a request.</br></br>
+1. Open a browser tab and paste this URL, http://localhost/osTicket/.
+2. This is where an end user would submit a request.</br></br>
 
 
