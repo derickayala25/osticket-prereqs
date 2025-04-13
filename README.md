@@ -265,7 +265,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 
 <b>Finalizing the installation</b></br>
 1. Once the <b>Congratulations!</b> message appears on the osTicket browser tab, right-click on <b>osTicket</b> in the HeidiSQL window.
-2. Select `Refresh` and you should see all the osTicket files on the right-side panel.
+2. Select <b>Refresh</b> and you should see all the osTicket files on the right-side panel.
 3. You can close the <b>HeidiSQL</b> window now.</br><br/>
 
 <p>
@@ -281,7 +281,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 2. Copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket</b>.
 3. Right-click on the <b>setup</b> folder and select <b>Delete</b>.
 4. Now, copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket\include</b>.
-5. Right-click on <b>ost-config.php</b> and select <b>Properties</b>. In the <b>General</b> tab, go to the <b>Attributes</b> section.
+5. Right-click on `ost-config.php` and select <b>Properties</b>. In the <b>General</b> tab, go to the <b>Attributes</b> section.
 6. Click on the <b>Read-Only</b> box. Click `Apply` and then `OK`.
 7. You can now close any open file windows.</br><br/>
 
