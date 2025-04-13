@@ -68,72 +68,94 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 </p>
 
 <b>Install the IIS URL Rewrite Module</b></br>
-Navigate to https://www.iis.net/downloads/microsoft/url-rewrite. Click on the <b>English: x64 installer</b> file. The file will be downloaded automatically. Double-click the file
-and accept the terms. Click `Install` and then `Finish`.<br/><br/>
+1. Navigate to https://www.iis.net/downloads/microsoft/url-rewrite.
+2. Click on the <b>English: x64 installer</b> file. The file will be downloaded automatically.
+3. Double-click the file and accept the terms. Click `Install` and then `Finish`.<br/><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/7d5ace4d-bb33-4014-bc6f-7c5bb2687cf4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Create a folder on the `(C:)` drive called PHP</b></br>
-Type <b>File Explorer</b> in the Search bar. Click on the `This PC` icon > Double-click the Windows `(C:)` drive icon > Right-click inside the window and select `New` > `Folder`. Name the folder <b>PHP</b> and leave the window open.<br/><br/>
+1. Type <b>File Explorer</b> in the Search bar.
+2. Click on the `This PC` icon > Double-click the Windows `(C:)` drive icon
+3. Right-click inside the window and select `New` > `Folder`. Name the folder <b>PHP</b> and leave the window open.<br/><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/873bdcb8-9c1e-4321-b785-954b1741076e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Download the PHP files</b></br>
-Go to https://windows.php.net/download#php-8.4 and select the <b>VS16 x64 Non Thread Safe (2025-Apr-08 22:21:54) Zip [30.7MB]</b> file.</br><br/>
+1. Go to https://windows.php.net/download#php-8.4.
+2. Select the <b>VS16 x64 Non Thread Safe (2025-Apr-08 22:21:54) Zip [30.7MB]</b> file. The file will be downloaded automatically.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/559b0df8-a4b6-460a-85a2-71a76e14beb1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<b>Copy the files from the `php-8.3.20-nts-Win32-vs16-x64` zipped folder into the <b>PHP</b> folder.</b></br>
-Once downloaded, double-click on the `php-8.3.20-nts-Win32-vs16-x64` zipped folder, select all the files and copy them (by right-clicking inside the window, clicking `OK` on the <b>Windows Security</b> window pop-up, and clicking on <b>Copy</b>). Open the <b>PHP</b> folder on the `(C:)` drive and paste the contents of the `php-8.3.20-nts-Win32-vs16-x64` folder inside it. You can close the `php-8.3.20-nts-Win32-vs16-x64` folder.</b></br><br/>
+<b>Copy the files from the `php-8.3.20-nts-Win32-vs16-x64` zipped folder into the PHP folder.</b></br>
+1. Once downloaded, double-click on the `php-8.3.20-nts-Win32-vs16-x64` zipped folder.
+2. Select all the files and copy them (by right-clicking inside the window, clicking `OK` on the <b>Windows Security</b> window pop-up, and clicking on <b>Copy</b>).
+3. Open the <b>PHP</b> folder on the `(C:)` drive and paste the contents of the `php-8.3.20-nts-Win32-vs16-x64` folder inside it.
+4. You can close the `php-8.3.20-nts-Win32-vs16-x64` folder.</b></br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/7ceb23d1-ce5e-4927-bcba-0dc90c17c478" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Install Visual C++ Redistributable</b></br>
-Go to https://www.microsoft.com/en-us/download/details.aspx?id=48145, click on <b>Download</b>, select `vc_redist.x64.exe`, and click on <b>Download.</b> Double-click the file, accept the terms and click `Install`. Click `Close`.</br><br/>
+1. Go to https://www.microsoft.com/en-us/download/details.aspx?id=48145.
+2. Click on <b>Download</b>, select `vc_redist.x64.exe`, and click on <b>Download</b>.
+3. Double-click the file, accept the terms and click `Install`. Click `Close`.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/680b6d8d-ec61-4ab0-a07f-5f47ad453f80" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Install Visual Studio</b></br>
-Go to https://visualstudio.microsoft.com/ and click on <b>Download Visual Studio</b>. Once downloaded, double-click the `VisualStudioSetup` file and click `Continue`. In the `Workloads` section, under `Other toolsets`, select <b>Data storage and processing</b>. Click `Install`. Once it finishes installing, close the <b>Visual Studio 2022</b> windows.</b></br><br/>
+1. Go to https://visualstudio.microsoft.com/ and click on <b>Download Visual Studio</b>.
+2. Once downloaded, double-click the `VisualStudioSetup` file and click `Continue`.
+3. In the `Workloads` section, under `Other toolsets`, select <b>Data storage and processing</b>.
+4. Click `Install`. Once it finishes installing, close the <b>Visual Studio 2022</b> windows.</b></br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/68064547-7419-4d8a-9f9b-f50702062368" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Install MySQL 9.2.0</b></br>
-Go to https://dev.mysql.com/downloads/mysql/. Download the <b>Windows (x86, 64-bit), MSI Installer</b> file. Click on <b>No thanks, just start my download.</b> Double-click the `mysql-9.2.0-winx64` file in your `Downloads` folder. Click `Next`, accept the terms and click `Next`. Select `Typical` on the <b>Choose Setup Type</b> section and click `Install`. Click `Finish`.</br>
-In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Accounts and Roles</b> section. Type the word <b>root</b> as your password. Click `Next` until you get to the <b>Apply Configuration</b> section. Once there, click `Execute`. Once that's done, click `Next` and then `Finish`.</br><br/>
+1. Go to https://dev.mysql.com/downloads/mysql/.
+2. Download the <b>Windows (x86, 64-bit), MSI Installer</b> file. Click on <b>No thanks, just start my download.</b>
+3. Double-click the `mysql-9.2.0-winx64` file in your `Downloads` folder. Click `Next`, accept the terms and click `Next`.
+4. Select `Typical` on the <b>Choose Setup Type</b> section and click `Install`. Click `Finish`.</br>
+5. In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Accounts and Roles</b> section.
+6. Type the word <b>root</b> as your password. Click `Next` until you get to the <b>Apply Configuration</b> section.
+7. Once there, click `Execute`. Once that's done, click `Next` and then `Finish`.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/15dba9f4-8bce-4001-ab48-4b8668dbe845" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Open IIS as an Administrator</b></br>
-Type <b>IIS</b> in the search bar and select `Run as administrator`.</b></br><br/>
+1. Type <b>IIS</b> in the search bar and select `Run as administrator`.</b></br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/018b3d25-1a4c-4628-87d4-6d139a44f321" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Register PHP from within IIS</b></br>
-Double-click on the <b>PHP Manager</b> icon inside the <b>Internet Information Services (IIS) Manager</b> window. Click on the <b>Register new PHP version</b> link. A window will open. Click on the ellipsis `...`. Double-click on the <b>PHP</b> folder. Double-click the `php-cgi` file and click `OK`.</br><br/>
+1. Double-click the <b>PHP Manager</b> icon inside the <b>Internet Information Services (IIS) Manager</b> window.
+2. Click on the <b>Register new PHP version</b> link. A window will open.
+3. Click on the ellipsis `...`. Double-click on the <b>PHP</b> folder.
+4. Double-click the `php-cgi` file and click `OK`.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/caef7993-ddda-4773-98d2-d4675b16dd76" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Reload IIS (Open IIS, Stop and Start the server)</b></br>
-In the <b>Internet Information Services (IIS) Manager</b> window, click on the <b>osTicket-vm...</b> name on the left side under <b>Connections</b>. You'll see a right side panel open that says <b>Manage Server</b>. There you will have the option to `Restart`, `Start` or `Stop` the server. You can also right-click on the <b>osTicket-vm...</b> name and start or stop there. Stop and start the server once.</br><br/>
+1. In the <b>Internet Information Services (IIS) Manager</b> window, click on the <b>osTicket-vm...</b> name on the left side under <b>Connections</b>.
+2. You'll see a right side-panel open that says <b>Manage Server</b>. There you will have the option to `Restart`, `Start` or `Stop` the server.
+3. You can also right-click on the <b>osTicket-vm...</b> name and start or stop there. Stop and start the server once.</br><br/>
 
 
 <p>
@@ -141,8 +163,14 @@ In the <b>Internet Information Services (IIS) Manager</b> window, click on the <
 </p>
 
 <b>Download osTicket</b></br>
-Go to https://osticket.com/. Click on <b>Get Started</b>. Navigate to the <b>Open Source</b> column and click on <b>Download</b>. Select the latest osTicket Core version and click on `Next Step`. Select your desired language and click on `Next Step`. Do not select any plug ins and click on `Next Step`. Click on `No Thanks`.</br>
-Once downloaded, double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder. Go to the open Windows `(C:)` drive folder, double-click the `inetpub` folder, double-click the `wwwroot` folder. Once inside the `wwwroot` folder, paste the <b>upload</b> folder. Rename the <b>upload</b> folder to <b>osTicket</b>.</br><br/>
+1. Go to https://osticket.com/.
+2. Click on <b>Get Started</b>. Navigate to the <b>Open Source</b> column and click on <b>Download</b>.
+3. Select the latest osTicket Core version and click on `Next Step`. Select your desired language and click on `Next Step`.
+4. Do not select any plug ins and click on `Next Step`. Click on `No Thanks`.
+5. Once downloaded, double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder.
+6. Go to the open Windows `(C:)` drive folder, double-click the `inetpub` folder, double-click the `wwwroot` folder.
+7. Once inside the `wwwroot` folder, paste the <b>upload</b> folder.
+8. Rename the <b>upload</b> folder to <b>osTicket</b>.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/79a4cd47-aca3-4d81-be75-a986aa529c40" height="80%" width="80%" alt="Disk Sanitization Steps"/>
