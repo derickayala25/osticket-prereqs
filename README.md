@@ -136,7 +136,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 </p>
 
 <b>Open IIS as an Administrator</b></br>
-1. Type <b>IIS</b> in the search bar and select `Run as administrator`.</b></br><br/>
+1. Type <b>IIS</b> in the search bar and select <b>Run as administrator</b>.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/018b3d25-1a4c-4628-87d4-6d139a44f321" height="80%" width="80%" alt="Disk Sanitization Steps"/>
