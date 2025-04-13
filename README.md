@@ -215,7 +215,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 1. Right-click on `ost-config.php` and select <b>Properties</b>.
 2. Click on the <b>Security</b> tab. Click on `Advanced` > `Disable inheritance`. Click on `Remove all inherited permissions from this object`.
 3. Click `Add` > `Select a principal`. Type <b>Everyone</b> in the <b>Enter the object names to select (examples):</b> box.
-4. Click `Check Names` > `OK`. Check the `Full control` box and click `OK`.
+4. Click `Check Names` > `OK`. Check the <b>Full control</b> box and click `OK`.
 5. In the <b>Advanced Security Settings for ost-config.php</b> window, were it says <b>Name:</b> it should say <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>.
 6. Click `Apply` and `OK`. On the <b>ost-config.php Properties</b> window, click `OK`.</br><br/>
 
