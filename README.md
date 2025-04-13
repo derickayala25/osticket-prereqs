@@ -165,11 +165,11 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 <b>Download osTicket</b></br>
 1. Go to https://osticket.com/.
 2. Click on <b>Get Started</b>. Navigate to the <b>Open Source</b> column and click on <b>Download</b>.
-3. Select the latest osTicket Core version and click on `Next Step`. Select your desired language and click on `Next Step`.
-4. Do not select any plug ins and click on `Next Step`. Click on `No Thanks`.
+3. Select the latest osTicket Core version and click on <b>Next Step</b>. Select your desired language and click on <b>Next Step</b>.
+4. Do not select any plug ins and click on <b>Next Step</b>. Click on <b>No Thanks</b>.
 5. Once downloaded, double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder.
-6. Go to the open Windows `(C:)` drive folder, double-click the `inetpub` folder and then double-click the `wwwroot` folder.
-7. Once inside the `wwwroot` folder, paste the <b>upload</b> folder.
+6. Go to the open Windows <b>(C:)</b> drive folder, double-click the <b>inetpub</b> folder and then double-click the <b>wwwroot</b> folder.
+7. Once inside the <b>wwwroot</b> folder, paste the <b>upload</b> folder.
 8. Rename the <b>upload</b> folder to <b>osTicket</b>.</br><br/>
 
 <p>
