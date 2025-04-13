@@ -42,12 +42,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 <b>Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface)</b><br />
-Open a browser tab and type 127.0.0.1 in the address bar. You should get a message similar to <b>This site can't be reached.</b><br/>
+Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get a message similar to <b>This site can't be reached.</b><br/>
 
 1. Type <b>Control Panel</b> in the search bar and open it. Select `Programs` > `Turn Windows features on or off`
 2. Tick :white_square_button: the <b>Internet Information Services</b> box and expand
 3. Expand <b>Worldwide Web Services</b> and then <b>Application Development Features</b>
-4. Check &#x1F5F9; the `CGI` box and click `OK`. Once the operation is done, click `Close` and close the <b>Programs</b> window.<br/>
+4. Check &#x1F5F9; the <b>CGI</b> box and click `OK`. Once the operation is done, click `Close` and close the <b>Programs</b> window.<br/>
 5. Refresh the browser tab and it should open to a tab similar to the image above.
 </p>
 
@@ -76,10 +76,10 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 <img src="https://github.com/user-attachments/assets/7d5ace4d-bb33-4014-bc6f-7c5bb2687cf4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<b>Create a folder on the `(C:)` drive called PHP</b></br>
+<b>Create a folder on the (C:) drive called PHP</b></br>
 1. Type <b>File Explorer</b> in the Search bar.
-2. Click on the `This PC` icon > Double-click the Windows `(C:)` drive icon
-3. Right-click inside the window and select `New` > `Folder`. Name the folder <b>PHP</b> and leave the window open.<br/><br/>
+2. Click on the ![laptop](https://github.com/user-attachments/assets/c5c0284b-de55-4fa3-8068-503056ac8200) icon > Double-click the <b>Windows (C:)</b> drive icon
+3. Right-click inside the window and select <b>New</b> > <b>Folder</b>. Name the folder <b>PHP</b> and leave the window open.<br/><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/873bdcb8-9c1e-4321-b785-954b1741076e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -96,7 +96,7 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 <b>Copy the files from the `php-8.3.20-nts-Win32-vs16-x64` zipped folder into the PHP folder.</b></br>
 1. Once downloaded, double-click on the `php-8.3.20-nts-Win32-vs16-x64` zipped folder.
 2. Select all the files and copy them (by right-clicking inside the window, clicking `OK` on the <b>Windows Security</b> window pop-up, and clicking on <b>Copy</b>).
-3. Open the <b>PHP</b> folder on the `(C:)` drive and paste the contents of the `php-8.3.20-nts-Win32-vs16-x64` folder inside it.
+3. Open the <b>PHP</b> folder on the <b>(C:)</b> drive and paste the contents of the `php-8.3.20-nts-Win32-vs16-x64` folder inside it.
 4. You can close the `php-8.3.20-nts-Win32-vs16-x64` folder.</b></br><br/>
 
 <p>
@@ -105,7 +105,7 @@ Open a browser tab and type 127.0.0.1 in the address bar. You should get a messa
 
 <b>Install Visual C++ Redistributable</b></br>
 1. Go to https://www.microsoft.com/en-us/download/details.aspx?id=48145.
-2. Click on <b>Download</b>, select `vc_redist.x64.exe`, and click on <b>Download</b>.
+2. Click on <b>Download</b>, select <b>vc_redist.x64.exe</b>, and click on <b>Download</b>.
 3. Double-click the file, accept the terms and click `Install`. Click `Close`.</br><br/>
 
 <p>
