@@ -237,8 +237,8 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 <b>Install HeidiSQL</b></br>
 1. Go to https://www.heidisql.com/.
 2. Click on the <b>Downloads</b> tab. Close out any ad pop-up windows.
-3. Click on the `Installer, 64 bit` link. Go to the <b>Downloads</b> folder and double-click on `HeidiSQL_12.10.0.7000_Setup`.
-4. Select `Install for all users (recommended)`. Accept the agreement and click `Next` until you get to the <b>Ready to Install</b> section.
+3. Click on the <b>Installer, 64 bit</b> link. Go to the <b>Downloads</b> folder and double-click on <b>HeidiSQL_12.10.0.7000_Setup</b>.
+4. Select <b>Install for all users (recommended)</b>. Accept the agreement and click <b>Next</b> until you get to the <b>Ready to Install</b> section.
 5. Click `Install`. Click `Finish`.
 6. In the <b>HeidiSQL 12.10.0.7000 - Session manager</b> window, click <b>New</b> on the bottom left side. Use the word <b>root</b> as a password.
 7. Click `Open`. Right-click on <b>Unnamed</b> and select <b>Create new</b> > <b>Database</b>.
