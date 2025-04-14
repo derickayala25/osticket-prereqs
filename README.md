@@ -128,7 +128,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 <b>Install MySQL 9.2.0</b></br>
 1. Go to https://dev.mysql.com/downloads/mysql/.
 2. Download the <b>Windows (x86, 64-bit), MSI Installer</b> file. Click on <b>No thanks, just start my download.</b>
-3. Go back to the <b>Downloads</b> folder, double-click the `mysql-9.2.0-winx64` file in your <b>Downloads</b> folder. Click `Next`, accept the terms and click `Next`.
+3. Go back to the <b>Downloads</b> folder and double-click the `mysql-9.2.0-winx64` file. Click `Next`, accept the terms and click `Next`.
 4. Select `Typical` on the <b>Choose Setup Type</b> section and click `Install`. Click `Finish`.</br>
 5. In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Accounts and Roles</b> section.
 6. Type the word <b>root</b> as your password. Click `Next` until you get to the <b>Apply Configuration</b> section.
