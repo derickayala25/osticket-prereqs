@@ -180,7 +180,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 </p>
 
 <b>Reload IIS</b></br>
-1. Open IIS as an Administrator. Stop and Start the server once.</br><br/>
+1. Open <b>IIS</b> as an Administrator. Stop and Start the server once.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/ef617686-9734-4ec5-8c51-7ce4cc098ead" height="80%" width="80%" alt="Disk Sanitization Steps"/>
