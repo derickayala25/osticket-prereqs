@@ -72,16 +72,16 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 <b>Install the IIS URL Rewrite Module</b></br>
 1. Navigate to https://www.iis.net/downloads/microsoft/url-rewrite.
 2. Click on the <b>English: x64 installer</b> file. The file will be downloaded automatically.
-3. Double-click the file and accept the terms. Click `Install` and then `Finish`.<br/><br/>
+3. Double-click the file `rewrite_amd64_en-US` and accept the terms. Click `Install` and then `Finish`.<br/><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/7d5ace4d-bb33-4014-bc6f-7c5bb2687cf4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <b>Create a folder on the (C:) drive called PHP</b></br>
-1. Type <b>File Explorer</b> in the Search bar.
+1. Type <b>File Explorer</b> in the Search box and open it.
 2. Click on the ![laptop](https://github.com/user-attachments/assets/c5c0284b-de55-4fa3-8068-503056ac8200) icon > Double-click the <b>Windows (C:)</b> drive icon
-3. Right-click inside the window and select <b>New</b> > <b>Folder</b>. Name the folder <b>PHP</b> and leave the window open.<br/><br/>
+3. Right-click inside the window and select <b>New</b> > <b>Folder</b>. Name the folder <b>PHP</b>, press <b>Enter</b> and leave the window open.<br/><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/873bdcb8-9c1e-4321-b785-954b1741076e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -96,7 +96,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 </p>
 
 <b>Copy the files from the `php-8.3.20-nts-Win32-vs16-x64` zipped folder into the PHP folder.</b></br>
-1. Once downloaded, double-click on the `php-8.3.20-nts-Win32-vs16-x64` zipped folder.
+1. Once downloaded, navigate to the <b>Downloads</b> folder and double-click on the `php-8.3.20-nts-Win32-vs16-x64` zipped folder.
 2. Select all the files and copy them (by right-clicking inside the window, clicking `OK` on the <b>Windows Security</b> window pop-up, and clicking on <b>Copy</b>).
 3. Open the <b>PHP</b> folder on the <b>(C:)</b> drive and paste the contents of the `php-8.3.20-nts-Win32-vs16-x64` folder inside it.
 4. You can close the `php-8.3.20-nts-Win32-vs16-x64` folder.</b></br><br/>
@@ -108,7 +108,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 <b>Install Visual C++ Redistributable</b></br>
 1. Go to https://www.microsoft.com/en-us/download/details.aspx?id=48145.
 2. Click on <b>Download</b>, select <b>vc_redist.x64.exe</b>, and click on <b>Download</b>.
-3. Double-click the file, accept the terms and click `Install`. Click `Close`.</br><br/>
+3. Open the <b>Downloads</b> folder, double-click on the `vc_redist.x64` file, agree to the terms and click `Install`. Click `Close`.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/680b6d8d-ec61-4ab0-a07f-5f47ad453f80" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -116,9 +116,10 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 
 <b>Install Visual Studio</b></br>
 1. Go to https://visualstudio.microsoft.com/ and click on <b>Download Visual Studio</b>.
-2. Once downloaded, double-click the `VisualStudioSetup` file and click `Continue`.
-3. In the <b>Workloads</b> section, under <b>Other toolsets</b>, select <b>Data storage and processing</b>.
-4. Click `Install`. Once it finishes installing, close the <b>Visual Studio 2022</b> windows.</b></br><br/>
+2. Once downloaded, go back to the <b>Downloads</b> folder, double-click the `VisualStudioSetup` file and click `Continue`.
+3. In the <b>Workloads</b> tab, under <b>Other toolsets</b>, select <b>Data storage and processing</b>.
+4. Click `Install`. This might take a few minutes.
+5. Once it finishes installing, close the <b>Visual Studio 2022</b> windows.</b></br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/68064547-7419-4d8a-9f9b-f50702062368" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -127,7 +128,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 <b>Install MySQL 9.2.0</b></br>
 1. Go to https://dev.mysql.com/downloads/mysql/.
 2. Download the <b>Windows (x86, 64-bit), MSI Installer</b> file. Click on <b>No thanks, just start my download.</b>
-3. Double-click the `mysql-9.2.0-winx64` file in your <b>Downloads</b> folder. Click `Next`, accept the terms and click `Next`.
+3. Go back to the <b>Downloads</b> folder, double-click the `mysql-9.2.0-winx64` file in your <b>Downloads</b> folder. Click `Next`, accept the terms and click `Next`.
 4. Select `Typical` on the <b>Choose Setup Type</b> section and click `Install`. Click `Finish`.</br>
 5. In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Accounts and Roles</b> section.
 6. Type the word <b>root</b> as your password. Click `Next` until you get to the <b>Apply Configuration</b> section.
@@ -138,7 +139,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 </p>
 
 <b>Open IIS as an Administrator</b></br>
-1. Type <b>IIS</b> in the search bar and select <b>Run as administrator</b>.</br><br/>
+1. Type <b>IIS</b> in the search box and select <b>Run as administrator</b>.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/018b3d25-1a4c-4628-87d4-6d139a44f321" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -154,7 +155,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 <img src="https://github.com/user-attachments/assets/caef7993-ddda-4773-98d2-d4675b16dd76" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<b>Reload IIS (Open IIS, Stop and Start the server)</b></br>
+<b>Reload IIS</b></br>
 1. In the <b>Internet Information Services (IIS) Manager</b> window, click on the <b>osTicket-vm...</b> name on the left side under <b>Connections</b>.
 2. You'll see a right side-panel open that says <b>Manage Server</b>. There you will have the option to `Restart`, `Start` or `Stop` the server.
 3. You can also right-click on the <b>osTicket-vm...</b> name and start or stop there. Stop and start the server once.</br><br/>
@@ -168,9 +169,9 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 1. Go to https://osticket.com/.
 2. Click on <b>Get Started</b>. Navigate to the <b>Open Source</b> column and click on <b>Download</b>.
 3. Select the latest osTicket Core version and click on <b>Next Step</b>. Select your desired language and click on <b>Next Step</b>.
-4. Do not select any plug ins and click on <b>Next Step</b>. Click on <b>No Thanks</b>.
-5. Once downloaded, double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder.
-6. Go to the open <b>Windows (C:)</b> drive folder, double-click the <b>inetpub</b> folder and then double-click the <b>wwwroot</b> folder.
+4. Do not select any plugins and click on <b>Next Step</b>. Click on <b>No Thanks</b>.
+5. Go back to the <b>Downloads</b> folder, double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder.
+6. Go to the <b>Windows (C:)</b> drive folder, double-click the <b>inetpub</b> folder and then double-click the <b>wwwroot</b> folder.
 7. Once inside the <b>wwwroot</b> folder, paste the <b>upload</b> folder.
 8. Rename the <b>upload</b> folder to <b>osTicket</b>.</br><br/>
 
@@ -186,7 +187,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 </p>
 
 <b>Open the osTicket local site</b></br>
-1. In the <b>Internet Information Services (IIS) Manager</b> window, click on the drop-down arrow on the left side of the <b>osTicket-vm...</b> name.
+1. In the <b>Internet Information Services (IIS) Manager</b> window, click on the drop-down arrow on the left side of the <b>osTicket-vm...</b> name in order to expand.
 2. Expand the <b>Sites</b> folder. Expand <b>Default Web Site</b>. Click ONCE on <b>osTicket</b>.
 3. On the right side-panel, click on `Browse *:80 (http)`. It should open a new browser tab loading the osTicket site (http://localhost/osTicket/setup/).</br><br/>
 
@@ -198,7 +199,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 1. Note that some extensions are not enabled.
 2. Go back to <b>IIS</b> > <b>Sites</b> > <b>Default Web Site</b> > <b>osTicket</b>. Double-click <b>PHP Manager</b>.
 3. Click `Enable or disable an extension`. Right-click on the greyed out `php_imap.dll` and select `Enable`. Enable `php_intl.dll`. Enable `php_opcache.dll`.
-4. Refresh the <b>osTicket</b> site in your browser and observe the changes. You should have only one extension not enabled.</br><br/>
+4. Refresh the http://localhost/osTicket/setup/ site in your browser and observe the changes. You should have only one extension not enabled.</br><br/>
 
 <p>
 <img src="https://github.com/user-attachments/assets/e1ecb51f-b505-4ea1-82b6-224b1cd93aa4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -238,7 +239,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 
 <b>Install HeidiSQL</b></br>
 1. Go to https://www.heidisql.com/.
-2. Click on the <b>Downloads</b> tab. Close out any ad pop-up windows.
+2. Click on the <b>Downloads</b> tab next to the <b>Home</b> tab. Close out any ad pop-up windows.
 3. Click on the <b>Installer, 64 bit</b> link. Go to the <b>Downloads</b> folder and double-click on <b>HeidiSQL_12.10.0.7000_Setup</b>.
 4. Select <b>Install for all users (recommended)</b>. Accept the agreement and click <b>Next</b> until you get to the <b>Ready to Install</b> section.
 5. Click `Install`. Click `Finish`.
@@ -252,7 +253,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 </p>
 
 <b>Continue Setting up osTicket in the browser</b></br>
-1. Go back to the osTicket browser tab.
+1. Go back to the (http://localhost/osTicket/setup/install.php) browser tab.
 2. Under the <b>Database Settings</b> section, under <b>MySQL Database:</b>, type the word <b>osTicket</b>.
 3. For <b>MySQL Username:</b> type the word <b>root</b> and for <b>MySQL Password:</b> also type <b>root</b>.
 4. Click `Install Now!`</br><br/>
@@ -266,7 +267,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 </p>
 
 <b>Finalizing the installation</b></br>
-1. Once the <b>Congratulations!</b> message appears on the osTicket browser tab, right-click on <b>osTicket</b> in the HeidiSQL window.
+1. Once the <b>Congratulations!</b> message appears on the osTicket browser tab, right-click on <b>osTicket</b> in the <b>Unnamed\osTicket\ - HeidiSQL 12.10.0.7000</b> window.
 2. Select <b>Refresh</b> and you should see all the osTicket files on the right-side panel.
 3. You can close the <b>HeidiSQL</b> window now.</br><br/>
 
@@ -280,9 +281,9 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 
 <b>Cleanup</b></br>
 1. Open <b>File Explorer</b>.
-2. Copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket</b>.
+2. Copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket</b> and press <b>Enter</b>.
 3. Right-click on the <b>setup</b> folder and select <b>Delete</b>.
-4. Now, copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket\include</b>.
+4. Now, copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket\include</b> and press <b>Enter</b>.
 5. Right-click on `ost-config.php` and select <b>Properties</b>. In the <b>General</b> tab, go to the <b>Attributes</b> section.
 6. Click on the <b>Read-Only</b> box. Click `Apply` and then `OK`.
 7. You can now close any open file windows.</br><br/>
