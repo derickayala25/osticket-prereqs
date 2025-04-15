@@ -46,7 +46,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 
 1. Type <b>Control Panel</b> in the desktop search area and open it. Select `Programs` > `Turn Windows features on or off`
 2. Tick :white_square_button: the <b>Internet Information Services</b> box and expand
-3. Expand <b>Worldwide Web Services</b> and then <b>Application Development Features</b>
+3. Expand <b>World Wide Web Services</b> and then <b>Application Development Features</b>
 4. Check &#x1F5F9; the <b>CGI</b> box and click `OK`. Once the operation is done, click `Close` and close the <b>Programs</b> window.<br/>
 5. Refresh the browser tab and it should open to a tab similar to the image above.
 </p>
