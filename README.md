@@ -38,9 +38,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/8ca00ad8-2185-4006-8140-cee0ba2f2df6" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 <b>Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface)</b><br />
 Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get a message similar to <b>This site can't be reached.</b><br/>
 
@@ -51,28 +48,31 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 5. Refresh the browser tab and it should open to a tab similar to the image above.
 </p>
 
-<br/>
-
-
 <p>
-<img src="https://github.com/user-attachments/assets/f2d1695b-ef7b-426f-9957-16d5a7fa52fc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<img src="https://github.com/user-attachments/assets/8ca00ad8-2185-4006-8140-cee0ba2f2df6" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p><br/>
+
 
 <b>Install PHP Manager for IIS</b></br>
 1. Navigate to https://github.com/phpmanager/phpmanager/releases on your browser.
 2. Click on the file named <b>PHPManagerForIIS_x64.msi</b>. The file will be downloaded automatically.
 3. Type <b>File Explorer</b> in the search box and open it.
 4. Open the <b>Downloads</b> folder.
-5. Double-click the file `PHPManagerForIIS_x64` > click `Next` > accept the terms > `Next` > `Next` > `Install` > `Finish`.<br/><br/>
+5. Double-click the file `PHPManagerForIIS_x64` > click `Next` > accept the terms > `Next` > `Next` > `Install` > `Finish`.
 
 <p>
-<img src="https://github.com/user-attachments/assets/56b5e9aa-532b-4f0e-92f5-a759bb9622ad" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<img src="https://github.com/user-attachments/assets/f2d1695b-ef7b-426f-9957-16d5a7fa52fc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p><br/>
+
 
 <b>Install the IIS URL Rewrite Module</b></br>
 1. Navigate to https://www.iis.net/downloads/microsoft/url-rewrite.
 2. Click on the <b>English: x64 installer</b> file. The file will be downloaded automatically.
-3. Double-click the file `rewrite_amd64_en-US` and accept the terms. Click `Install` and then `Finish`.<br/><br/>
+3. Double-click the file `rewrite_amd64_en-US` and accept the terms. Click `Install` and then `Finish`.
+
+<p>
+<img src="https://github.com/user-attachments/assets/56b5e9aa-532b-4f0e-92f5-a759bb9622ad" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <p>
 <img src="https://github.com/user-attachments/assets/7d5ace4d-bb33-4014-bc6f-7c5bb2687cf4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
