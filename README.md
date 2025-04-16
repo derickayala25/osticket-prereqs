@@ -39,16 +39,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br/>
 
-<p>
-<b>Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface)</b><br />
-Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get a message similar to <b>This site can't be reached.</b><br/>
 
-1. Type <b>Control Panel</b> in the desktop search area and open it. Select `Programs` > `Turn Windows features on or off`
-2. Tick :white_square_button: the <b>Internet Information Services</b> box and expand
-3. Expand <b>World Wide Web Services</b> and then <b>Application Development Features</b>
-4. Check &#x1F5F9; the <b>CGI</b> box and click `OK`. Once the operation is done, click `Close` and close the <b>Programs</b> window.
-5. Refresh the browser tab and it should open to a tab similar to the image above.
-</p>
+<b>Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface)</b><br/>
+1. Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get a message similar to <b>This site can't be reached.</b>
+2. Type <b>Control Panel</b> in the Windows search box and open it. Select `Programs` > `Turn Windows features on or off`
+3. Tick :white_square_button: the <b>Internet Information Services</b> box and expand
+4. Expand <b>World Wide Web Services</b> and then <b>Application Development Features</b>
+5. Check &#x1F5F9; the <b>CGI</b> box and click `OK`. Once the operation is done, click `Close` and close the <b>Programs</b> window.
+6. Refresh the browser tab and it should open to a tab similar to the image above.
+
 
 <p>
 <img src="https://github.com/user-attachments/assets/8ca00ad8-2185-4006-8140-cee0ba2f2df6" height="80%" width="80%" alt="Disk Sanitization Steps"/>
