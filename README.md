@@ -3,7 +3,7 @@
 </p>
 
 ### 📍 Part 1: Prerequisites & osTicket Installation
-### 👉 [Part 2: Post-Installation Configuration](https://github.com/drewmarsh/osTicket-post-install-configuration)
+### 👉 [Part 2: Post-Installation Configuration](https://github.com/derickayala25/post-install-config)
 ### 👉 [Part 3: Ticket Lifecycle Demo](https://github.com/drewmarsh/osTicket-ticket-lifecycle-demo)
 
 <h1>osTicket - Prerequisites and Installation</h1>
