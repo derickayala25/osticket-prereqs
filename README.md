@@ -31,11 +31,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Visual C++ Redistributable for Visual Studio 2015
 - Visual Studio 2022 v17.13 (Community)
 
-![image](https://github.com/user-attachments/assets/b316e094-837e-41b4-a7f9-f1bf8e62acab)<br/>
-
 <h2>Installation Steps</h2>
 
-<br />
+<br/>
 
 <p>
 <b>Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface)</b><br />
@@ -44,7 +42,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 1. Type <b>Control Panel</b> in the desktop search area and open it. Select `Programs` > `Turn Windows features on or off`
 2. Tick :white_square_button: the <b>Internet Information Services</b> box and expand
 3. Expand <b>World Wide Web Services</b> and then <b>Application Development Features</b>
-4. Check &#x1F5F9; the <b>CGI</b> box and click `OK`. Once the operation is done, click `Close` and close the <b>Programs</b> window.<br/>
+4. Check &#x1F5F9; the <b>CGI</b> box and click `OK`. Once the operation is done, click `Close` and close the <b>Programs</b> window.
 5. Refresh the browser tab and it should open to a tab similar to the image above.
 </p>
 
@@ -125,7 +123,7 @@ Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get 
 1. Go to https://dev.mysql.com/downloads/mysql/.
 2. Download the <b>Windows (x86, 64-bit), MSI Installer</b> file. Click on <b>No thanks, just start my download.</b>
 3. Go back to the <b>Downloads</b> folder and double-click the `mysql-9.2.0-winx64` file. Click `Next`, accept the terms and click `Next`.
-4. Select `Typical` on the <b>Choose Setup Type</b> section and click `Install`. Click `Finish`.</br>
+4. Select `Typical` on the <b>Choose Setup Type</b> section and click `Install`. Click `Finish`.
 5. In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Accounts and Roles</b> section.
 6. Type the word <b>root</b> as your password. Click `Next` until you get to the <b>Apply Configuration</b> section.
 7. Once there, click `Execute`. Once that's done, click `Next` and then `Finish`.
