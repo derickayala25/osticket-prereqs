@@ -4,7 +4,7 @@
 
 ### 📍 Part 1: Prerequisites & osTicket Installation
 ### 👉 [Part 2: Post-Installation Configuration](https://github.com/derickayala25/post-install-config)
-### 👉 [Part 3: Ticket Lifecycle Demo](https://github.com/drewmarsh/osTicket-ticket-lifecycle-demo)
+### 👉 [Part 3: Ticket Lifecycle Demo](https://github.com/derickayala25/ticket-lifecycle)
 
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
