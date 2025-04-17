@@ -46,7 +46,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 3. Tick :white_square_button: the <b>Internet Information Services</b> box and then click on the plus sign <b>+</b> ![plus](https://github.com/user-attachments/assets/ac6453e2-b164-4ae3-ae33-a6059922e112)	&#8862; next to it to expand
 4. Expand <b>World Wide Web Services</b> and then <b>Application Development Features</b>
 5. Check &#x1F5F9; the <b>CGI</b> box and click `OK`. Once the operation is done, click `Close` and close the <b>Programs</b> window.
-6. Refresh the browser tab and it should open to a tab similar to the image above.
+6. Refresh the browser tab and it should open to a tab similar to the image below.
 
 :plus-square: :squar![laptop](https://github.com/user-attachments/assets/c0fa64e4-e262-4925-a2a9-62d3e414b317)
 <i class="fa-solid fa-bars"></i>
