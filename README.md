@@ -125,7 +125,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <b>Install Visual Studio</b></br>
 1. Go to https://visualstudio.microsoft.com/ and click on <b>Download Visual Studio</b>.
 2. Once downloaded, go back to the <b>Downloads</b> folder, double-click the `VisualStudioSetup` file and click `Continue`.
-3. In the <b>Workloads</b> tab, under <b>Other toolsets</b>, select <b>Data storage and processing</b>.
+3. In the <b>Workloads</b> tab, scroll down to <b>Other toolsets</b>, select <b>Data storage and processing</b>.
 4. Click `Install`. This might take a few minutes.
 5. Once it finishes installing, close the <b>Visual Studio 2022</b> windows.
 
@@ -133,10 +133,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://github.com/user-attachments/assets/680b6d8d-ec61-4ab0-a07f-5f47ad453f80" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p><br/>
 
-<b>Install MySQL 9.2.0</b></br>
+<b>Install MySQL 9.3.0</b></br>
 1. Go to https://dev.mysql.com/downloads/mysql/.
 2. Download the <b>Windows (x86, 64-bit), MSI Installer</b> file. Click on <b>No thanks, just start my download.</b>
-3. Go back to the <b>Downloads</b> folder and double-click the `mysql-9.2.0-winx64` file. Click `Next`, accept the terms and click `Next`.
+3. Go back to the <b>Downloads</b> folder and double-click the `mysql-9.3.0-winx64` file. <b>Please note that it might be a newer version</b>. Click `Next`, accept the terms and click `Next`.
 4. Select `Typical` on the <b>Choose Setup Type</b> section and click `Install`. Click `Finish`.
 5. In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Accounts and Roles</b> section.
 6. Type the word <b>root</b> as your password. Click `Next` until you get to the <b>Apply Configuration</b> section.
@@ -164,7 +164,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p><br/>
 
 <b>Reload IIS</b></br>
-1. In the <b>Internet Information Services (IIS) Manager</b> window, click on the <b>osTicket-vm...</b> name on the left side under <b>Connections</b>.
+1. In the <b>Internet Information Services (IIS) Manager</b> window, click once on the <b>osTicket-vm...</b> name on the left side under <b>Connections</b>.
 2. You'll see a right side-panel open that says <b>Manage Server</b>. There you will have the option to `Restart`, `Start` or `Stop` the server.
 3. You can also right-click on the <b>osTicket-vm...</b> name and start or stop there. Stop and start the server once.
 
@@ -177,7 +177,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 2. Click on <b>Get Started</b>. Navigate to the <b>Open Source</b> column and click on <b>Download</b>.
 3. Select the latest osTicket Core version and click on <b>Next Step</b>. Select your desired language and click on <b>Next Step</b>.
 4. Do not select any plugins and click on <b>Next Step</b>. Click on <b>No Thanks</b>.
-5. Go back to the <b>Downloads</b> folder, double click the `osTicket-v1.18.2.zip` file and copy the <b>upload</b> folder.
+5. Go back to the <b>Downloads</b> folder, double click the `osTicket-v1.18.2.zip` file (or whichever file is the latest) and copy the <b>upload</b> folder.
 6. Go to the <b>Windows (C:)</b> drive folder, double-click the <b>inetpub</b> folder and then double-click the <b>wwwroot</b> folder.
 7. Once inside the <b>wwwroot</b> folder, paste the <b>upload</b> folder.
 8. Rename the <b>upload</b> folder to <b>osTicket</b>.
@@ -187,7 +187,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p><br/>
 
 <b>Reload IIS</b></br>
-1. Open <b>IIS</b> as an Administrator. Stop and Start the server once.
+1. Open <b>IIS</b> as an Administrator (if the window isn't open already). Stop and Start the server once.
 
 <p>
 <img src="https://github.com/user-attachments/assets/79a4cd47-aca3-4d81-be75-a986aa529c40" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -196,7 +196,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <b>Open the osTicket local site</b></br>
 1. In the <b>Internet Information Services (IIS) Manager</b> window, click on the drop-down arrow on the left side of the <b>osTicket-vm...</b> name in order to expand.
 2. Expand the <b>Sites</b> folder. Expand <b>Default Web Site</b>. Click ONCE on <b>osTicket</b>.
-3. On the right side-panel, click on `Browse *:80 (http)`. It should open a new browser tab loading the osTicket site (http://localhost/osTicket/setup/).
+3. On the right side-panel, click on `Browse *:80 (http)`. It should open a new browser tab loading the osTicket local site (http://localhost/osTicket/setup/).
 
 <p>
 <img src="https://github.com/user-attachments/assets/ef617686-9734-4ec5-8c51-7ce4cc098ead" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -206,16 +206,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 1. Note that some extensions are not enabled.
 2. Go back to <b>IIS</b> > <b>Sites</b> > <b>Default Web Site</b> > <b>osTicket</b>. Double-click <b>PHP Manager</b>.
 3. Click `Enable or disable an extension`. Right-click on the greyed out `php_imap.dll` and select `Enable`. Enable `php_intl.dll`. Enable `php_opcache.dll`.
-4. Refresh the http://localhost/osTicket/setup/ site in your browser and observe the changes. You should have only one extension not enabled.
+4. Refresh the http://localhost/osTicket/setup/ site in your browser and observe the changes. You should have only one extension disabled.
 
 <p>
 <img src="https://github.com/user-attachments/assets/3f7d5414-ded2-4eb5-a384-a3a09219ee9c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p><br/>
 
 <b>Rename ost-sampleconfig.php</b></br>
-1. Open <b>File Explorer</b>.
-2. Copy and paste this path onto the window's address bar <b>C:\inetpub\wwwroot\osTicket\include</b>.
-3. Rename `ost-sampleconfig.php` to `ost-config.php`.
+1. Go to the <b>Windows search box</b> and paste this path <b>C:\inetpub\wwwroot\osTicket\include</b>.
+2. Rename `ost-sampleconfig.php` to `ost-config.php`.
 
 <p>
 <img src="https://github.com/user-attachments/assets/e1ecb51f-b505-4ea1-82b6-224b1cd93aa4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -274,22 +273,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p><br/>
 
 <b>Finalizing the installation</b></br>
-1. Once the <b>Congratulations!</b> message appears on the osTicket browser tab, right-click on <b>osTicket</b> in the <b>Unnamed\osTicket\ - HeidiSQL 12.10.0.7000</b> window.
-2. Select <b>Refresh</b> and you should see all the osTicket files on the right-side panel.
-3. You can close the <b>HeidiSQL</b> window now.
+1. Once the <b>Congratulations!</b> message appears on the osTicket browser tab, right-click on <b>osTicket</b> in the <b>Unnamed\osTicket\ - HeidiSQL 12.10.0.7000</b> window and select <b>Refresh</b>. You should see all the osTicket files on the right-side panel.
+2. You can close the <b>HeidiSQL</b> window now.
 
 <p>
 <img src="https://github.com/user-attachments/assets/935ac7db-2e86-46cb-8373-d75678fc966f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p><br/>
 
 <b>Cleanup</b></br>
-1. Open <b>File Explorer</b>.
-2. Copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket</b> and press <b>Enter</b>.
-3. Right-click on the <b>setup</b> folder and select <b>Delete</b>.
-4. Now, copy and paste this path onto the window's address bar, <b>C:\inetpub\wwwroot\osTicket\include</b> and press <b>Enter</b>.
-5. Right-click on `ost-config.php` and select <b>Properties</b>. In the <b>General</b> tab, go to the <b>Attributes</b> section.
-6. Click on the <b>Read-Only</b> box. Click `Apply` and then `OK`.
-7. You can now close any open file windows.
+1. Go to the <b>Windows search box</b> and paste this path <b>C:\inetpub\wwwroot\osTicket</b> and press <b>Enter</b>.
+2. Right-click on the <b>setup</b> folder and select <b>Delete</b>.
+3. In that same window, open the <b>include</b> folder.
+4. Right-click on `ost-config.php` and select <b>Properties</b>. In the <b>General</b> tab, go to the <b>Attributes</b> section.
+5. Click on the <b>Read-Only</b> box. Click `Apply` and then `OK`.
+6. You can now close any open file windows.
 
 <p>
 <img src="https://github.com/user-attachments/assets/e54b9982-d0f5-4532-98f8-0fec023df326" height="80%" width="80%" alt="Disk Sanitization Steps"/>
