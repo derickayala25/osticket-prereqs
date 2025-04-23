@@ -316,4 +316,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://github.com/user-attachments/assets/f15b7508-8807-4efc-bcdc-d365ee168ed4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p><br/>
 
+### 📍 Part 1: Prerequisites & osTicket Installation
+### 👉 [Part 2: Post-Installation Configuration](https://github.com/derickayala25/post-install-config)
+### 👉 [Part 3: Ticket Lifecycle Demo](https://github.com/derickayala25/ticket-lifecycle)
 
