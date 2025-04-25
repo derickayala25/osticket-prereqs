@@ -38,6 +38,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <br/>
+How They Work Together (Simple Example):</br>
+A user opens a ticket online.</br></br>
+
+IIS sees the request and hands it to PHP.
+
+PHP says, “Let’s write this ticket down,” and asks MySQL to save it.
+
+MySQL saves the info.
+
+PHP builds a "thank you" message.
+
+IIS sends it back to the user to see in their browser.
+
 
 
 <b>Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface)</b><br/>
