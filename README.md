@@ -118,7 +118,7 @@ This is a feature for the IIS web server that lets you modify request URLs using
 </p><br/>
 
 <b>Install Visual C++ Redistributable</b></br>
-This installs runtime libraries needed to run applications built with Visual C++ (a version of C++ with Microsoft-specific enhancements, used in Visual Studio).
+This installs runtime libraries (collections of code that programs use while they’re running) needed to run applications built with Visual C++ . In this case, MySQL (which we'll install shortly), is primarily built with C and C++.
 1. Go to https://www.microsoft.com/en-us/download/details.aspx?id=48145.
 2. Click on <b>Download</b>, select <b>vc_redist.x64.exe</b>, and click on <b>Download</b>.
 3. Open the <b>Downloads</b> folder, double-click on the `vc_redist.x64` file, agree to the terms and click `Install`. Click `Close`.
@@ -128,6 +128,7 @@ This installs runtime libraries needed to run applications built with Visual C++
 </p><br/>
 
 <b>Install Visual Studio</b></br>
+Visual Studio is an Integrated Development Environment (IDE) from Microsoft used for writing, testing, and debugging software—basically. It's used for building applications.
 1. Go to https://visualstudio.microsoft.com/ and click on <b>Download Visual Studio</b>.
 2. Once downloaded, go back to the <b>Downloads</b> folder, double-click the `VisualStudioSetup` file and click `Continue`.
 3. In the <b>Workloads</b> tab, scroll down to <b>Other toolsets</b>, select <b>Data storage and processing</b>.
@@ -139,6 +140,7 @@ This installs runtime libraries needed to run applications built with Visual C++
 </p><br/>
 
 <b>Install MySQL 9.3.0</b></br>
+MySQL is  software that helps you store, organize, and retrieve data efficiently using SQL (Structured Query Language). It's like a digital notebook that helps apps remember and organize lots of information so they can find it later really fast.
 1. Go to https://dev.mysql.com/downloads/mysql/.
 2. Download the <b>Windows (x86, 64-bit), MSI Installer</b> file. Click on <b>No thanks, just start my download.</b>
 3. Go back to the <b>Downloads</b> folder and double-click the `mysql-9.3.0-winx64` file. <b>Please note that it might be a newer version</b>. Click `Next`, accept the terms and click `Next`.
@@ -159,6 +161,7 @@ This installs runtime libraries needed to run applications built with Visual C++
 </p><br/>
 
 <b>Register PHP from within IIS</b></br>
+You have to register PHP within IIS so that IIS knows how to handle `.php files` when someone requests them through the web browser.
 1. Double-click the <b>PHP Manager</b> icon inside the <b>Internet Information Services (IIS) Manager</b> window.
 2. Click on the <b>Register new PHP version</b> link. A window will open.
 3. Click on the ellipsis `...`. Double-click on the <b>PHP</b> folder.
