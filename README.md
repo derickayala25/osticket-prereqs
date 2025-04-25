@@ -128,7 +128,7 @@ This installs runtime libraries (collections of code that programs use while the
 </p><br/>
 
 <b>Install Visual Studio</b></br>
-Visual Studio is an Integrated Development Environment (IDE) from Microsoft used for writing, testing, and debugging software—basically. It's used for building applications.
+Visual Studio is an Integrated Development Environment (IDE) from Microsoft used for writing, testing, and debugging software. Amongst many things, it's used for building applications.
 1. Go to https://visualstudio.microsoft.com/ and click on <b>Download Visual Studio</b>.
 2. Once downloaded, go back to the <b>Downloads</b> folder, double-click the `VisualStudioSetup` file and click `Continue`.
 3. In the <b>Workloads</b> tab, scroll down to <b>Other toolsets</b>, select <b>Data storage and processing</b>.
@@ -140,7 +140,7 @@ Visual Studio is an Integrated Development Environment (IDE) from Microsoft used
 </p><br/>
 
 <b>Install MySQL 9.3.0</b></br>
-MySQL is  software that helps you store, organize, and retrieve data efficiently using SQL (Structured Query Language). It's like a digital notebook that helps apps remember and organize lots of information so they can find it later really fast.
+MySQL is  software that helps you store, organize, and retrieve data efficiently using SQL (Structured Query Language). It's like a digital notebook that helps apps remember and organize lots of information so they can find it later.
 1. Go to https://dev.mysql.com/downloads/mysql/.
 2. Download the <b>Windows (x86, 64-bit), MSI Installer</b> file. Click on <b>No thanks, just start my download.</b>
 3. Go back to the <b>Downloads</b> folder and double-click the `mysql-9.3.0-winx64` file. <b>Please note that it might be a newer version</b>. Click `Next`, accept the terms and click `Next`.
