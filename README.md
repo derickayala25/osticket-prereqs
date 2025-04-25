@@ -41,6 +41,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <b>Enable IIS (Internet Information Services) in Windows WITH CGI (Common Gateway Interface)</b><br/>
+IIS is Microsoft’s web server software. Enabling it basically turns your Windows machine into a web server. When you also enable CGI, this allows IIS to run external scripts or programs, usually for generating dynamic content.
+
 1. Open a browser tab and type <b>127.0.0.1</b> in the address bar. You should get a message similar to <b>This site can't be reached.</b>
 2. Type <b>Control Panel</b> in the Windows search box and open it. Select `Programs` > `Turn Windows features on or off`
 3. Tick :white_square_button: the <b>Internet Information Services</b> box and then click on the plus sign <b>+</b> ![plus](https://github.com/user-attachments/assets/ac6453e2-b164-4ae3-ae33-a6059922e112)	&#8862; next to it to expand
@@ -66,6 +68,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <b>Install PHP Manager for IIS</b></br>
+PHP used to stand for Personal Home Page. However, now it means PHP: Hypertext Processor. It's a server-side scripting language used mainly for web development. PHP Manager for IIS is a tool/plugin that helps you manage PHP installations on your IIS web server, making working with PHP easier and less manual.
 1. Navigate to https://github.com/phpmanager/phpmanager/releases on your browser.
 2. Click on the file named <b>PHPManagerForIIS_x64.msi</b>. The file will be downloaded automatically.
 3. Type <b>File Explorer</b> in the search box and open it.
@@ -78,6 +81,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <b>Install the IIS URL Rewrite Module</b></br>
+This is a feature for the IIS web server that lets you modify request URLs using rules. It acts like a URL filter/transformer, helping you manage how incoming URLs are handled.
 1. Navigate to https://www.iis.net/downloads/microsoft/url-rewrite.
 2. Click on the <b>English: x64 installer</b> file. The file will be downloaded automatically.
 3. Double-click the file `rewrite_amd64_en-US` and accept the terms. Click `Install` and then `Finish`.
@@ -114,6 +118,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p><br/>
 
 <b>Install Visual C++ Redistributable</b></br>
+This installs runtime libraries needed to run applications built with Visual C++ (a version of C++ with Microsoft-specific enhancements, used in Visual Studio).
 1. Go to https://www.microsoft.com/en-us/download/details.aspx?id=48145.
 2. Click on <b>Download</b>, select <b>vc_redist.x64.exe</b>, and click on <b>Download</b>.
 3. Open the <b>Downloads</b> folder, double-click on the `vc_redist.x64` file, agree to the terms and click `Install`. Click `Close`.
@@ -244,6 +249,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p><br/>
 
 <b>Install HeidiSQL</b></br>
+HeidiSQL allows you to connect to and manage databases.
 1. Go to https://www.heidisql.com/.
 2. Click on the <b>Downloads</b> tab next to the <b>Home</b> tab. Close out any ad pop-up windows.
 3. Click on the <b>Installer, 64 bit</b> link. Go to the <b>Downloads</b> folder and double-click on <b>HeidiSQL_12.10.0.7000_Setup</b>.
