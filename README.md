@@ -196,7 +196,7 @@ You have to register PHP within IIS so that IIS knows how to handle `.php files`
 <b>Download osTicket</b></br>
 1. Go to https://osticket.com/.
 2. Click on <b>Get Started</b>. Navigate to the <b>Open Source</b> column and click on <b>Download</b>.
-3. Select the latest osTicket Core version and click on <b>Next Step</b>. Select your desired language and click on <b>Next Step</b>.
+3. Select the latest osTicket Core version and click on <b>Next Step</b>. Select your desired language, click on the `>` arrow and click on <b>Next Step</b>.
 4. Do not select any plugins and click on <b>Next Step</b>. Click on <b>No Thanks</b>.
 5. Go back to the <b>Downloads</b> folder, double click the `osTicket-v1.18.2.zip` file (or whichever file is the latest) and copy the <b>upload</b> folder.
 6. Go to the <b>Windows (C:)</b> drive folder, double-click the <b>inetpub</b> folder and then double-click the <b>wwwroot</b> folder.
