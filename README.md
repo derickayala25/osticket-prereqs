@@ -158,13 +158,26 @@ MySQL is  software that helps you store, organize, and retrieve data efficiently
 2. Download the <b>Windows (x86, 64-bit), MSI Installer</b> file. Click on <b>No thanks, just start my download.</b>
 3. Go back to the <b>Downloads</b> folder and double-click the `mysql-9.3.0-winx64` file. <b>Please note that it might be a newer version</b>. Click `Next`, accept the terms and click `Next`.
 4. Select `Typical` on the <b>Choose Setup Type</b> section and click `Install`. Click `Finish`.
-5. In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Accounts and Roles</b> section.
-6. Type the word <b>root</b> as your password. Click `Next` until you get to the <b>Apply Configuration</b> section.
-7. Once there, click `Execute`. Once that's done, click `Next` and then `Finish`.
 
 <p>
-<img src="https://github.com/user-attachments/assets/68064547-7419-4d8a-9f9b-f50702062368" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/5a656e7b-5da4-45bf-984f-82d64e8b07ff" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p><br/>
+
+5. In the <b>MySQL Configurator</b> window, click `Next` until you get to the <b>Accounts and Roles</b> section.
+6. For <b>Username</b> type <em>Adminuser</em>, for <b>Host</b> make sure <em><All Hosts (%)></em> is selected. For <b>Role</b> select <em>DBAdmin</em>. Type your password and click `OK`.
+
+<p>
+<img src="https://github.com/user-attachments/assets/31b44a78-0f62-46b5-a041-24240992c022" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p><br/>
+
+7. In the <b>Server File Permissions</b> section make sure to select the first option.
+
+<p>
+<img src="https://github.com/user-attachments/assets/d3c99319-4019-4720-adad-15a0aff676c5" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p><br/>
+
+8. Click `Next` until you get to the <b>Apply Configuration</b> section.
+9. Once there, click `Execute`. Once that's done, click `Next` and then `Finish`.</br></br>
 
 <b>Open IIS as an Administrator</b></br>
 1. Type <b>IIS</b> in the search box and select <b>Run as administrator</b>.
